@@ -1,0 +1,73 @@
+# Attribute Mapping Configuration
+# This file defines how source object attributes are mapped to target fields and containers
+# 
+# Structure:
+#   attribute_name:
+#     field: target_field_name
+#     container: target_container (root, ontology, maritimeMetadata, equipment, facility)
+
+attribute_mapping:
+  # Root level attributes (placed directly in the object)
+  "Operational Status":
+    field: "operationalStatus"
+    container: "root"
+    
+  "Functional Production Area":
+    field: "functionalRole"
+    container: "root"
+
+  # Ontology container attributes
+  "Adversary Status":
+    field: "affiliation"
+    container: "ontology"
+    
+  "Allegience To":
+    field: "nationality"
+    container: "ontology"
+    
+  "Force Type":
+    field: "force"
+    container: "ontology"
+    
+  "Echelon":
+    field: "echelon"
+    container: "ontology"
+
+  # Maritime metadata container attributes
+  "Hull Number":
+    field: "hullNumber"
+    container: "maritimeMetadata"
+    
+  "MMSI Number":
+    field: "mmsi"
+    container: "maritimeMetadata"
+    
+  "IMO Number":
+    field: "imo"
+    container: "maritimeMetadata"
+    
+  "SCONUM":
+    field: "sconum"
+    container: "maritimeMetadata"
+    
+  "Pennant Number":
+    field: "pennantNumber"
+    container: "maritimeMetadata"
+
+  # Equipment container attributes
+  "Military Symbology Code":
+    field: "symbology2525C"
+    container: "equipment"
+    
+  "Has Nuclear Capability":
+    field: "capability"
+    container: "equipment"
+
+  # Facility container attributes
+  "Facility Surrogate Key":
+    field: "facilitySurrogateKey"
+    container: "facility"
+    
+  "OSuffix":
+    field: "facilityId"
+    container: "facility"

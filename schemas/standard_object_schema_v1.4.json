@@ -1,0 +1,3322 @@
+{
+    "schema": "https://json-schema.org/draft-07/schema",
+    "title": "Standard Object",
+    "description": "This schema defines a standard object.",
+    "type": "object",
+    "required": [
+        "overallClassification"
+    ],
+    "properties": {
+        "version": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "overallClassification": {
+            "$ref": "#/$defs/ISM"
+        },
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "sourceId": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "createdDate": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "lastUpdatedDate": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "exerciseIndicator": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "confidenceLevel": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "recordStatus": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "obType": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "primaryMission": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "operationalStatus": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "responsibleProducer": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "functionalRole": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "recordLink": {
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "trackMetadata": {
+            "$ref": "#/$defs/TrackMetadata"
+        },
+        "airMetadata": {
+            "$ref": "#/$defs/AirMetadata"
+        },
+        "maritimeMetadata": {
+            "$ref": "#/$defs/MaritimeMetadata"
+        },
+        "landMetadata": {
+            "$ref": "#/$defs/LandMetadata"
+        },
+        "spaceMetadata": {
+            "$ref": "#/$defs/SpaceMetadata"
+        },
+        "location": {
+            "items": {
+                "$ref": "#/$defs/Location"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "movement": {
+            "$ref": "#/$defs/Movement"
+        },
+        "equipment": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "$ref": "#/$defs/Equipment"
+            }
+        },
+        "ontology": {
+            "$ref": "#/$defs/Ontology"
+        },
+        "provenance": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "$ref": "#/$defs/Provenance"
+            }
+        },
+        "unit": {
+            "$ref": "#/$defs/Unit"
+        },
+        "facility": {
+            "$ref": "#/$defs/Facility"
+        },
+        "target": {
+            "$ref": "#/$defs/Target"
+        },
+        "munitions": {
+            "$ref": "#/$defs/Munitions"
+        }
+    },
+    "$defs": {
+        "TrackMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Track Metadata",
+            "properties": {
+                "trackId": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "trackType": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "trackQuality": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "linkTrackId": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "linkTrackReportingUnit": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "AirMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Aircraft Metadata",
+            "properties": {
+                "icao24": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "callsign": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "tailNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "platform": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "specificType": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "flightStatus": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "squawk": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "spi": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "onGround": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "origin": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "destination": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "fuelLevel": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "MaritimeMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Maritime Metadata",
+            "properties": {
+                "sconum": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "imo": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "mmsi": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "shipClass": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "shipName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "hullNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "pennantNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "navStatus": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "ticketStatusActivity": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "ticketSales": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "ticketStatusDescription": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "LandMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Land Metadata",
+            "properties": {
+                "beNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "platform": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "vehicle": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "noStrike": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "SpaceMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Space Metadata",
+            "properties": {
+                "satelliteNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "idOnOrbit": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "orbitType": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "name": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "internationalDesignator": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "orbitSemiMajorAxis": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "eccentricity": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "inclination": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "rightAscension": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "argumentOfPerigee": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "meanAnomaly": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "epoch": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "bStar": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "tle": {
+                    "$ref": "#/$defs/TLE"
+                }
+            }
+        },
+        "TLE": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Two-Line Element Set",
+            "properties": {
+                "line1": {
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "line2": {
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                }
+            }
+        },
+        "Location": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Object Location",
+            "properties": {
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                },
+                "id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "timestamp": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "latitude": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "longitude": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "semiMajorError": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "semiMinorError": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "errorOrientation": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "altitude": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "quality": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "error": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "units": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "properties": {
+                                "value": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ],
+                                    "maxLength": 250,
+                                    "regex": "^[\\x20-\\x7E]*$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "elevation": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "quality": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "error": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "units": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "properties": {
+                                "value": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ],
+                                    "maxLength": 250,
+                                    "regex": "^[\\x20-\\x7E]*$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "derivation": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "quality": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "locationName": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "reason": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "custom": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                }
+            }
+        },
+        "Movement": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Movement",
+            "properties": {
+                "course": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "speed": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "units": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "properties": {
+                                "value": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ],
+                                    "maxLength": 250,
+                                    "regex": "^[\\x20-\\x7E]*$"
+                                }
+                            }
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Ontology": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Ontology",
+            "properties": {
+                "affiliation": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "allegiance": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "identity": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "domain": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "nationality": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "echelon": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "force": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "forceName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "theater": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "coi": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "service": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Equipment": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Equipment",
+            "properties": {
+                "capability": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "condition": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "midbEquipmentCode": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "midbName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "alternateName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "equipmentCategory": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "family": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "nomenclature": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "symbol2525C": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "component": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Facility": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Facility",
+            "properties": {
+                "facilityId": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "facilityName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "description": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "status": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Unit": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Unit",
+            "properties": {
+                "id": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "name": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "surrogateKey": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "description": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "status": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "readiness": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "subordination": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Target": {
+            "quality": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "value": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "ism": {
+                        "$ref": "#/$defs/ISM"
+                    }
+                }
+            },
+            "cpclPriority": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "value": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "ism": {
+                        "$ref": "#/$defs/ISM"
+                    }
+                }
+            },
+            "jipclPriority": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "value": {
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    },
+                    "ism": {
+                        "$ref": "#/$defs/ISM"
+                    }
+                }
+            }
+        },
+        "Munitions": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "dodac": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "amcReport": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "areaName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "asp": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "assetQty": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "baseName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "cocom": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "conditionCode": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "controlNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "conusOconus": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "crc": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "dataSource": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "dateReceived": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "demil": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "detail": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "dodic": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "expirationDate": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "fleet": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "fsc": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "himrCategory": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "lat": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "locationCode": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "locationDetail": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "long": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "lotNumber": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "majcom": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "mrpClass": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "msrg": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "munitionCode": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "nalc": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_hz_cl_div": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_1": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_1_2": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_2": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_2_1": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_2_2": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_2_3": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_3": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_1_4": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_location_limit_total": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_total_value": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "new_unit_value": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "niin": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "nomenclature": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "nsn": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "plant_key": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "prepo": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "purpose_code": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "retail": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "ric": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "s_i_family": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "s_i_group": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "serial_number": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "service": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "shelf_life": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "shelf_life_code": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "type": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "uic": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "wholesale": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "boolean",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "Provenance": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Provenance",
+            "properties": {
+                "sourceName": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "id": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "maxLength": 250,
+                            "regex": "^[\\x20-\\x7E]*$"
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                },
+                "updatedTime": {
+                    "type": [
+                        "object",
+                        "null"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "ism": {
+                            "$ref": "#/$defs/ISM"
+                        }
+                    }
+                }
+            }
+        },
+        "ISM": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Information Security Marking",
+            "properties": {
+                "banner": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^(?!.*TOP SECRET)(?!.*/SI/?|.*//SI/?).*$"
+                },
+                "classification": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ownerProducer": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "releaseableTo": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "disseminationControls": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "sciControls": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                }
+            }
+        }
+    }
+}

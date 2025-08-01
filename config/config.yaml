@@ -1,0 +1,8 @@
+project_dir: 
+input_files:
+  raw_objects: data/1_raw/source_objects.json
+  schema: schemas/source_schema.json
+  attribute_mapping: config/attribute_mapping.yaml
+output_files:
+  processed_dir: data/2_processed/
+  log_dir: logs/
