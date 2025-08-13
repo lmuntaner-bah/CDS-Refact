@@ -7,7 +7,7 @@ from src.utils.logger import setup_module_logger
 logger = setup_module_logger(__file__)
 
 
-CONFIG_FILE = Path("../config/config.yaml")
+CONFIG_FILE = Path("../../config/config.yaml")
 
 @lru_cache(maxsize=1)
 def load_config():
