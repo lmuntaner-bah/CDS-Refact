@@ -1,5 +1,4 @@
 import json
-from src.utils.config_loader import get_input_path
 from src.utils.logger import setup_module_logger, send_alert, log_performance
 
 # Initialize logger for this module
@@ -7,12 +6,10 @@ logger = setup_module_logger(__file__)
 
 
 @log_performance
-def get_source_objects():
+def get_source_objects(data_path: str):
     """
     Get the source objects from the data folder and store them as a list of dictionaries.
     """
-    data_path = get_input_path("raw_objects")
-    
     try:
         with open(data_path, "r") as f:
             source_objects = json.load(f)

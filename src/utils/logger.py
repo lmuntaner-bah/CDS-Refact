@@ -3,9 +3,8 @@ from pathlib import Path
 from loguru import logger
 from datetime import datetime
 import functools
-from src.utils.config_loader import get_output_path
 
-def setup_module_logger(file_path: str, log_level: str = "INFO"):
+def setup_module_logger(logs_dir: str, file_path: str, log_level: str = "INFO"):
     """
     Set up a logger for a specific module based on its file path.
     
@@ -18,9 +17,6 @@ def setup_module_logger(file_path: str, log_level: str = "INFO"):
     """
     # Extract module name from file path
     module_name = Path(file_path).stem
-    
-    # Get the logs directory from the output path configuration
-    logs_dir = get_output_path("log_dir")
     
     # Remove default logger to avoid duplicates
     logger.remove()
@@ -63,7 +59,7 @@ def setup_module_logger(file_path: str, log_level: str = "INFO"):
     return logger.bind(module=module_name)
 
 
-def send_alert(module_name: str, level: str, message: str, details: dict | None = None):
+def send_alert(logs_dir: str, module_name: str, level: str, message: str, details: dict | None = None):
     """
     Send an alert for critical issues.
     
@@ -82,7 +78,6 @@ def send_alert(module_name: str, level: str, message: str, details: dict | None 
     }
     
     # Create alert log file
-    logs_dir = get_output_path("log_dir")
     alert_file = logs_dir / "alerts.log"
     
     logger.add(
