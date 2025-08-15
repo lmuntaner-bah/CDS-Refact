@@ -32,6 +32,18 @@ attribute_mapping:
   "Echelon":
     field: "echelon"
     container: "ontology"
+  
+  "domain":
+    field: "domain"
+    container: "ontology"
+  
+  "allegience":
+    field: "allegience"
+    container: "ontology"
+  
+  "allegienceAor":
+    field: "coi"
+    container: "ontology"
 
   # Maritime metadata container attributes
   "Hull Number":

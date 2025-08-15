@@ -26,7 +26,7 @@
             ]
         },
         "name": "Dongfeng East Command Center 1",
-        "domain": "UNKNOWN",
+        "domain": "GROUND",
         "eoid": "oms-23456789",
         "classIri": "https://example.com/ontology/Facility",
         "className": "Facility",
@@ -409,7 +409,7 @@
             ]
         },
         "name": "Plesetsk North Tracking Station 2",
-        "domain": "RADAR",
+        "domain": "GROUND",
         "eoid": "oms-34567890",
         "classIri": "https://example.com/ontology/Facility",
         "className": "Facility",
@@ -791,7 +791,7 @@
             ]
         },
         "name": "Queshan South SSS Launch Site 3",
-        "domain": "UNKNOWN",
+        "domain": "GROUND",
         "eoid": "oms-12345678",
         "classIri": "https://example.com/ontology/Facility",
         "className": "Facility",

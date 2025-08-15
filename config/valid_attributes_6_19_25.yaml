@@ -1,0 +1,171 @@
+valid_attribute_names:
+    - Additional Function
+    - Additional Mission
+    - Additional Mission Specialty
+    - Adversary Status
+    - Allegiance To
+    - All-Source Object ID
+    - Alternate Name
+    - Altitude
+    - Altitude For Maximum Speed
+    - Analyst Comment
+    - Assessed Count
+    - Assigned To
+    - Associated ELNOTs
+    - Associated Equipment
+    - Associated Equipment
+    - Associated System
+    - Associated With
+    - Basic Encyclopedia Number
+    - Battlespace Dimension
+    - Biometric Identifier
+    - Birth Date
+    - Birth Location
+    - Bort Number
+    - Bridge Weight Capacity
+    - Built By
+    - Bumper Number
+    - Call Sign
+    - Category Code
+    - Citizen Of
+    - Class Significance
+    - Collection Priority
+    - Collections Workflow Status
+    - Condition
+    - Confidence Assessment
+    - Coordinates
+    - Country Code
+    - Country Of Manufacture
+    - Creating Organization
+    - Date Of Introduction
+    - Description
+    - Displayed Flag
+    - DoD BEWL Status
+    - Echelon
+    - Elevation
+    - End Time
+    - Enterprise Object ID
+    - Equipment Code
+    - Equipment Nomenclature
+    - External Identifier
+    - External Link
+    - Followed By
+    - Force
+    - Functional Damage Assessment
+    - Functional Production Area
+    - Fuselage Length
+    - Geometry
+    - Has Aimpoint Weapon Option
+    - Has Battle Damage Assessment
+    - Has Nuclear Capability
+    - Has Sufficient Target Detail
+    - Has Target Been Engaged
+    - Has Target Legal Statement
+    - Has Target Remarks
+    - Has Weaponeering Options
+    - Hull Number
+    - ICAO Code
+    - Identity Confidence
+    - IFF Code
+    - IMO Number
+    - Indicator Status
+    - Informed By
+    - Is Anomaly
+    - Is Event
+    - Is Legal Target
+    - Is Loaded
+    - Is Non-Specific Object
+    - Is Restricted Target
+    - Is Target Graphic Complete
+    - Is Target Validated
+    - Is Target Vetted
+    - Leader
+    - Led By
+    - Length
+    - Likelihood Assessment
+    - Location Accuracy
+    - Location Confidence
+    - Mass
+    - Maximum Endurance
+    - Maximum Engagement Range
+    - Maximum Range
+    - Maximum Speed
+    - Metric Tons
+    - MIDB Equipment Surrogate Key
+    - MIDB Facility Surrogate Key
+    - MIDB Unit ID
+    - MIDB Unit Name
+    - MIDB Unit Surrogate Key
+    - Military Symbology Code
+    - MMSI Number
+    - Mode Select
+    - Munition Count
+    - Munition Type
+    - Name
+    - NIPF Priority
+    - Normal Crew Size
+    - Number Of Engines
+    - Number Of Members
+    - Object Enterprise ID
+    - Object Full Classification
+    - Object ID
+    - Object State
+    - Operational Altitude
+    - Operational Status
+    - Optimal Speed
+    - Order of Battle Count
+    - Order Of Battle Type
+    - Originating System ID
+    - OSuffix
+    - Other Workflow Status
+    - Owned By
+    - Pennant Number
+    - Physical Battle Damage Assessment
+    - Physically Damaged
+    - Place Of Establishment
+    - Position Confidence
+    - Primary Area Of Operations
+    - Primary Function
+    - Primary Mission
+    - Primary Mission Specialty
+    - Purpose
+    - Radio Name
+    - Radio Signal Notation
+    - Registration Country
+    - Role
+    - SBU Name
+    - SCONUM
+    - Serial Number
+    - Signal Band Identifier
+    - Signal Frequency Maximum
+    - Signal Frequency Minimum
+    - Signal Notation
+    - Speed Limit
+    - Standard Displacement
+    - Start Time
+    - Sub-Indicator Category
+    - Sub-Indicator Echelon
+    - Sub-Indicator Status
+    - Submitted By
+    - Supply Class Value
+    - Tail Number
+    - Target List Association
+    - Target List Name
+    - Target List Type
+    - Target Number
+    - Target Radius
+    - Target Restriction
+    - Target Validating Command/Agency
+    - Targeting Confidence Level
+    - Targeting Workflow Status
+    - Theater Priority
+    - Title
+    - Tracking Start Time
+    - Transported By
+    - Unique Name
+    - US Person Status
+    - Vertical Clearance
+    - VIN
+    - Warning Watchcon
+    - Weight
+    - Width
