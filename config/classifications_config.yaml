@@ -1,0 +1,32 @@
+classification_handler:
+  classifications:
+    U: 0
+    C: 1
+    S: 2
+    TS: 3
+  forbidden_sci:
+    - SI
+    - TK
+    - G
+    - HCS
+  forbidden_controls:
+    - IMCON
+    - RSEN
+  special_groups:
+    - FVEY
+    - NATO
+    - ACGU
+  forbidden_terms:
+    - "TOP SECRET"
+    - "//SI//"
+    - "//SI/"
+    - "/SI//"
+    - "//TK//"
+    - "//TK/"
+    - "/TK//"
+    - "//IMCON//"
+    - "//IMCON/"
+    - "/IMCON//"
+    - "//RSEN//"
+    - "//RSEN/"
+    - "/RSEN//"
