@@ -11,10 +11,53 @@ attribute_mapping:
   "Operational Status":
     field: "operationalStatus"
     container: "root"
-    
+  
   "Functional Production Area":
     field: "functionalRole"
     container: "root"
+
+  # Maritime metadata container attributes
+  "SCONUM":
+    field: "sconum"
+    container: "maritimeMetadata"
+  
+  "IMO Number":
+    field: "imo"
+    container: "maritimeMetadata"
+  
+  "MMSI Number":
+    field: "mmsi"
+    container: "maritimeMetadata"
+  
+  "Hull Number":
+    field: "hullNumber"
+    container: "maritimeMetadata"
+  
+  "Pennant Number":
+    field: "pennantNumber"
+    container: "maritimeMetadata"
+
+  # Equipment container attributes
+  "Equipment Code":
+    field: "midbEquipmentCode"
+    container: "equipment"
+  
+  "Military Symbology Code":
+    field: "symbology2525C"
+    container: "equipment"
+  
+  "Condition":
+    field: "condition"
+    container: "equipment"
+  
+  "Has Nuclear Capability":
+    field: "capability"
+    container: "equipment"
+
+  # Unit container attributes
+  "MIDB Unit ID":
+    field: "id"
+    container: "unit"
 
   # Ontology container attributes
   "Adversary Status":
@@ -24,11 +67,11 @@ attribute_mapping:
   "Allegience To":
     field: "nationality"
     container: "ontology"
-    
+  
   "Force Type":
     field: "force"
     container: "ontology"
-    
+  
   "Echelon":
     field: "echelon"
     container: "ontology"
@@ -45,41 +88,16 @@ attribute_mapping:
     field: "coi"
     container: "ontology"
 
-  # Maritime metadata container attributes
-  "Hull Number":
-    field: "hullNumber"
-    container: "maritimeMetadata"
-    
-  "MMSI Number":
-    field: "mmsi"
-    container: "maritimeMetadata"
-    
-  "IMO Number":
-    field: "imo"
-    container: "maritimeMetadata"
-    
-  "SCONUM":
-    field: "sconum"
-    container: "maritimeMetadata"
-    
-  "Pennant Number":
-    field: "pennantNumber"
-    container: "maritimeMetadata"
-
-  # Equipment container attributes
-  "Military Symbology Code":
-    field: "symbology2525C"
-    container: "equipment"
-    
-  "Has Nuclear Capability":
-    field: "capability"
-    container: "equipment"
-
   # Facility container attributes
   "Facility Surrogate Key":
     field: "facilitySurrogateKey"
     container: "facility"
-    
+  
   "OSuffix":
     field: "facilityId"
     container: "facility"
+
+  # Provenance container attributes
+  "eoid":
+    field: "id"
+    container: "provenance"
