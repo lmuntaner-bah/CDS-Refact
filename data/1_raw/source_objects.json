@@ -535,6 +535,112 @@
         }
     },
     {
+        "id": "76276379-bcde-fghi-jklm-nopqrstuvwxy",
+        "version": 3,
+        "acm": {
+            "version": "3.0",
+            "classif": "S",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA"
+            ],
+            "portion": "S//REL TO USA",
+            "banner": "SECRET//REL TO USA",
+            "f_clearance": [
+                "S"
+            ]
+        },
+        "name": "Dongfeng WEST Command Center 2",
+        "domain": "GROUND",
+        "eoid": "oms-23456789",
+        "gideId": "gide-12345678",
+        "classIri": "https://example.com/ontology/Facility",
+        "className": "Facility",
+        "allegience": "CHN",
+        "allegienceAor": "INDOPACOM",
+        "attributes": {
+            "totalSize": 14,
+            "rollupAcm": {
+                "version": "3.0",
+                "classif": "S",
+                "classif_type": "US",
+                "owner_prod": [
+                    "USA"
+                ],
+                "dissem_ctrls": [
+                    "REL"
+                ],
+                "rel_to": [
+                    "USA"
+                ],
+                "portion": "S//REL TO USA",
+                "banner": "SECRET//REL TO USA",
+                "f_clearance": [
+                    "S"
+                ]
+            },
+            "data": []
+        },
+        "lastVerified": {
+            "timestamp": "2025-01-18T11:22:45.789Z",
+            "userId": "user-23456789"
+        },
+        "latestKnownLocation": {
+            "id": "b2c3d4e5-f6g7-8901-bcde-he2345678910",
+            "version": 1,
+            "acm": {
+                "version": "3.0",
+                "classif": "U",
+                "classif_type": "US",
+                "owner_prod": [
+                    "USA"
+                ],
+                "dissem_ctrls": [
+                    "REL"
+                ],
+                "rel_to": [
+                    "USA",
+                    "AUS",
+                    "CAN",
+                    "GBR",
+                    "NZL"
+                ],
+                "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                "f_clearance": [
+                    "U"
+                ]
+            },
+            "confidence": "HIGH",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.789234,
+                    32.456789,
+                    0.0
+                ],
+                "crs": {
+                    "Type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                }
+            },
+            "startTime": "2024-12-15T08:23:17.445Z",
+            "endTime": "2024-12-15T08:23:17.445Z",
+            "lastVerified": {
+                "timestamp": "2025-01-15T14:33:21.567Z",
+                "userId": "user-23456789"
+            }
+        }
+    },
+    {
         "id": "34567890-cdef-ghij-klmn-opqrstuvwxyz",
         "version": 8,
         "acm": {
@@ -1076,7 +1182,7 @@
             "totalSize": 13,
             "rollupAcm": {
                 "version": "3.0",
-                "classif": "U",
+                "classif": "S",
                 "classif_type": "US",
                 "owner_prod": [
                     "USA"
@@ -1085,16 +1191,12 @@
                     "REL"
                 ],
                 "rel_to": [
-                    "USA",
-                    "AUS",
-                    "CAN",
-                    "GBR",
-                    "NZL"
+                    "USA"
                 ],
-                "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-                "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                "portion": "S//REL TO USA",
+                "banner": "SECRET//REL TO USA",
                 "f_clearance": [
-                    "U"
+                    "S"
                 ]
             },
             "data": [
@@ -1462,7 +1564,7 @@
                     "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567898",
                     "acm": {
                         "version": "3.0",
-                        "classif": "U",
+                        "classif": "TS",
                         "classif_type": "US",
                         "owner_prod": [
                             "USA"
@@ -1471,16 +1573,12 @@
                             "REL"
                         ],
                         "rel_to": [
-                            "USA",
-                            "AUS",
-                            "CAN",
-                            "GBR",
-                            "NZL"
+                            "USA"
                         ],
-                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "portion": "TS//REL TO USA",
+                        "banner": "TOP SECRET//REL TO USA",
                         "f_clearance": [
-                            "U"
+                            "TS"
                         ]
                     },
                     "attributeName": "Operational Status",
@@ -2518,7 +2616,7 @@
             ]
         },
         "name": "INS Vikrant",
-        "domain": "MARITIME",
+        "domain": "SEA",
         "eoid": "oms-6a151a33",
         "gideId": "gide-12345678",
         "classIri": "https://example.com/ontology/Surface Vessel",
@@ -3179,7 +3277,7 @@
                     "id": "d39a7edf-c24d-453b-8e69-bc0f506c0686",
                     "acm": {
                         "version": "3.0",
-                        "classif": "U",
+                        "classif": "C",
                         "classif_type": "US",
                         "owner_prod": [
                             "USA"
@@ -3194,10 +3292,10 @@
                             "GBR",
                             "NZL"
                         ],
-                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "portion": "C//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "CONFIDENTIAL//REL TO USA, AUS, CAN, GBR, NZL",
                         "f_clearance": [
-                            "U"
+                            "C"
                         ]
                     },
                     "attributeName": "SCONUM",
@@ -3406,7 +3504,7 @@
             ]
         },
         "name": "MV Pacific Trader",
-        "domain": "MARITIME",
+        "domain": "SEA",
         "eoid": "oms-59b2df9d",
         "gideId": "gide-12345678",
         "classIri": "https://example.com/ontology/Surface Vessel",
@@ -3859,7 +3957,7 @@
         "version": 6,
         "acm": {
             "version": "3.0",
-            "classif": "U",
+            "classif": "TS",
             "classif_type": "US",
             "owner_prod": [
                 "USA"
@@ -3868,16 +3966,12 @@
                 "REL"
             ],
             "rel_to": [
-                "USA",
-                "AUS",
-                "CAN",
-                "GBR",
-                "NZL"
+                "USA"
             ],
-            "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-            "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+            "portion": "TOP SECRET//REL TO USA",
+            "banner": "TS//REL TO USA",
             "f_clearance": [
-                "U"
+                "TS"
             ]
         },
         "name": "CNS Liaoning",
@@ -5371,7 +5465,7 @@
         "version": 6,
         "acm": {
             "version": "3.0",
-            "classif": "U",
+            "classif": "S",
             "classif_type": "US",
             "owner_prod": [
                 "USA"
@@ -5386,14 +5480,14 @@
                 "GBR",
                 "NZL"
             ],
-            "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-            "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+            "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
             "f_clearance": [
-                "U"
+                "S"
             ]
         },
         "name": "Samurai Champloo SS Jing",
-        "domain": "MARITIME",
+        "domain": "SEA",
         "eoid": "oms-345863",
         "gideId": "gide-73479",
         "classIri": "https://example.com/ontology/Surface Vessel",
@@ -5404,7 +5498,7 @@
             "totalSize": 0,
             "rollupAcm": {
                 "version": "3.0",
-                "classif": "U",
+                "classif": "S",
                 "classif_type": "US",
                 "owner_prod": [
                     "USA"
@@ -5419,10 +5513,10 @@
                     "GBR",
                     "NZL"
                 ],
-                "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-                "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+                "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
                 "f_clearance": [
-                    "U"
+                    "S"
                 ]
             },
             "data": []
