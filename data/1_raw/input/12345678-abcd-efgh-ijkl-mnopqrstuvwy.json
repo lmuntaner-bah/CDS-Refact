@@ -1,0 +1,113 @@
+{
+    "id": "12345678-abcd-efgh-ijkl-mnopqrstuvwy",
+    "version": 6,
+    "acm": {
+        "version": "3.0",
+        "classif": "S",
+        "classif_type": "US",
+        "owner_prod": [
+            "USA"
+        ],
+        "dissem_ctrls": [
+            "REL"
+        ],
+        "rel_to": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+        ],
+        "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
+        "f_clearance": [
+            "S"
+        ]
+    },
+    "name": "Samurai Champloo SS Jing",
+    "domain": "SEA",
+    "eoid": "oms-345863",
+    "gideId": "gide-73479",
+    "classIri": "https://example.com/ontology/Surface Vessel",
+    "className": "Surface Vessel",
+    "allegience": "CHN",
+    "allegienceAor": "INDOPACOM",
+    "attributes": {
+        "totalSize": 0,
+        "rollupAcm": {
+            "version": "3.0",
+            "classif": "S",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA",
+                "AUS",
+                "CAN",
+                "GBR",
+                "NZL"
+            ],
+            "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
+            "f_clearance": [
+                "S"
+            ]
+        },
+        "data": []
+    },
+    "lastVerified": {
+        "timestamp": "2025-06-28T16:54:33.853Z",
+        "userId": "user-12345678"
+    },
+    "latestKnownLocation": {
+        "id": "a1b2c3d4-e5f6-7890-abcd-hd1234567899",
+        "version": 0,
+        "acm": {
+            "version": "3.0",
+            "classif": "U",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA",
+                "AUS",
+                "CAN",
+                "GBR",
+                "NZL"
+            ],
+            "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+            "f_clearance": [
+                "U"
+            ]
+        },
+        "confidence": "LOW",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.789012,
+                35.456789
+            ],
+            "crs": {
+                "Type": "name",
+                "properties": {
+                    "name": "EPSG:4326"
+                }
+            }
+        },
+        "startTime": "2025-05-09T04:57:49.252Z",
+        "endTime": "2025-05-09T04:57:49.252Z",
+        "lastVerified": {
+            "timestamp": "2025-06-23T05:42:38.131Z",
+            "userId": "user-12345678"
+        }
+    }
+}

@@ -34,7 +34,7 @@
         "allegience": "CHN",
         "allegienceAor": "INDOPACOM",
         "attributes": {
-            "totalSize": 14,
+            "totalSize": 15,
             "rollupAcm": {
                 "version": "3.0",
                 "classif": "U",
@@ -86,6 +86,96 @@
                     },
                     "attributeName": "Date Of Introduction",
                     "attributeValue": "2024-07-04",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "6666666-f6g7-8901-bcde-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Basic Encyclopedia Number",
+                    "attributeValue": "0385CS1295",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "s5677dss-f6g7-8901-bcde-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Primary Mission",
+                    "attributeValue": "MN",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "e4b1c2d3-9f8a-4b7e-8c6d-1a2b3c4d5e6f",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Category Code",
+                    "attributeValue": "87170",
                     "attributeType": "STRING",
                     "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
                 },
@@ -535,6 +625,601 @@
         }
     },
     {
+        "id": "23456789-aaaa-bbbb-nnnn-nopqrstuvwxy",
+        "version": 3,
+        "acm": {
+            "version": "3.0",
+            "classif": "S",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA",
+                "AUS",
+                "CAN",
+                "GBR",
+                "NZL"
+            ],
+            "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
+            "f_clearance": [
+                "U"
+            ]
+        },
+        "name": "Hidden Leaf Village Command Center 1",
+        "domain": "GROUND",
+        "eoid": "oms-23456789",
+        "gideId": "gide-12345678",
+        "classIri": "https://example.com/ontology/Facility",
+        "className": "Facility",
+        "allegience": "JAP",
+        "allegienceAor": "INDOPACOM",
+        "attributes": {
+            "totalSize": 14,
+            "rollupAcm": {
+                "version": "3.0",
+                "classif": "S",
+                "classif_type": "US",
+                "owner_prod": [
+                    "USA"
+                ],
+                "dissem_ctrls": [
+                    "REL"
+                ],
+                "rel_to": [
+                    "USA",
+                    "AUS",
+                    "CAN",
+                    "GBR",
+                    "NZL"
+                ],
+                "portion": "S//REL TO USA, AUS, CAN, GBR, NZL",
+                "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
+                "f_clearance": [
+                    "S"
+                ]
+            },
+            "data": [
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Date Of Introduction",
+                    "attributeValue": "2024-07-04",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "1111111-f6g7-8901-dddd-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Basic Encyclopedia Number",
+                    "attributeValue": "0556FX0092",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "99999fdd-f6g7-8901-aaaa-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Primary Mission",
+                    "attributeValue": "BX",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-cccc-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "MIDB Unit ID",
+                    "attributeValue": "DFGCH01256",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678901",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Adversary Status",
+                    "attributeValue": "F",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678999",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Elevation",
+                    "attributeValue": "5280",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678902",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Facility Surrogate Key",
+                    "attributeValue": "20002000704933",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:19.678Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678903",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "OSuffix",
+                    "attributeValue": "20845",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:20.123Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678904",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Allegience To",
+                    "attributeValue": "JP",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:20.567Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678905",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Force",
+                    "attributeValue": "ANBU",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:21.234Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678906",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Military Symbology Code",
+                    "attributeValue": "SFAPF",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:21.789Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-78590000004",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Equipment Code",
+                    "attributeValue": "L9ASQ",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:21.789Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678907",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Functional Production Area",
+                    "attributeValue": "COM",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:22.345Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678908",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Name",
+                    "attributeValue": "Hidden Leaf Village Command Center 1",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:22.901Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg2345678909",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Operational Status",
+                    "attributeValue": "OPR",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:23.456Z"
+                },
+                {
+                    "id": "b2c3d4e5-f6g7-8901-bcde-fg74935693",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Condition",
+                    "attributeValue": "RDY",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:23.456Z"
+                }
+            ]
+        },
+        "lastVerified": {
+            "timestamp": "2025-01-18T11:22:45.789Z",
+            "userId": "user-23456789-ITACHI"
+        },
+        "latestKnownLocation": {
+            "id": "b2c3d4e5-f6g7-8901-bcde-he2345678910",
+            "version": 1,
+            "acm": {
+                "version": "3.0",
+                "classif": "TS",
+                "classif_type": "US",
+                "owner_prod": [
+                    "USA"
+                ],
+                "dissem_ctrls": [
+                    "REL"
+                ],
+                "rel_to": [
+                    "USA",
+                    "AUS",
+                    "CAN",
+                    "GBR",
+                    "NZL"
+                ],
+                "portion": "TS//REL TO USA, AUS, CAN, GBR, NZL",
+                "banner": "TOP SECRET//REL TO USA, AUS, CAN, GBR, NZL",
+                "f_clearance": [
+                    "TS"
+                ]
+            },
+            "confidence": "HIGH",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.789234,
+                    32.456789,
+                    0.0
+                ],
+                "crs": {
+                    "Type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                }
+            },
+            "startTime": "2024-12-15T08:23:17.445Z",
+            "endTime": "2024-12-15T08:23:17.445Z",
+            "lastVerified": {
+                "timestamp": "2025-01-15T14:33:21.567Z",
+                "userId": "user-23456789-ITACHI"
+            }
+        }
+    },
+    {
         "id": "76276379-bcde-fghi-jklm-nopqrstuvwxy",
         "version": 3,
         "acm": {
@@ -590,54 +1275,6 @@
         "lastVerified": {
             "timestamp": "2025-01-18T11:22:45.789Z",
             "userId": "user-23456789"
-        },
-        "latestKnownLocation": {
-            "id": "b2c3d4e5-f6g7-8901-bcde-he2345678910",
-            "version": 1,
-            "acm": {
-                "version": "3.0",
-                "classif": "U",
-                "classif_type": "US",
-                "owner_prod": [
-                    "USA"
-                ],
-                "dissem_ctrls": [
-                    "REL"
-                ],
-                "rel_to": [
-                    "USA",
-                    "AUS",
-                    "CAN",
-                    "GBR",
-                    "NZL"
-                ],
-                "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
-                "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-                "f_clearance": [
-                    "U"
-                ]
-            },
-            "confidence": "HIGH",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.789234,
-                    32.456789,
-                    0.0
-                ],
-                "crs": {
-                    "Type": "name",
-                    "properties": {
-                        "name": "EPSG:4326"
-                    }
-                }
-            },
-            "startTime": "2024-12-15T08:23:17.445Z",
-            "endTime": "2024-12-15T08:23:17.445Z",
-            "lastVerified": {
-                "timestamp": "2025-01-15T14:33:21.567Z",
-                "userId": "user-23456789"
-            }
         }
     },
     {
@@ -726,6 +1363,36 @@
                     },
                     "attributeName": "Date Of Introduction",
                     "attributeValue": "2024-10-04",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "s0000dss-d4f7-0000-bcde-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Primary Mission",
+                    "attributeValue": "NB",
                     "attributeType": "STRING",
                     "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
                 },
@@ -1227,6 +1894,36 @@
                     },
                     "attributeName": "Date Of Introduction",
                     "attributeValue": "2024-01-24",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
+                    "id": "v5477sss-f6g7-8901-bcde-fg2345678000",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Primary Mission",
+                    "attributeValue": "GW",
                     "attributeType": "STRING",
                     "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
                 },
@@ -1761,6 +2458,36 @@
                     "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
                 },
                 {
+                    "id": "e4b1c2d3-9f8a-4b7e-8c6d-1a2b3c4d5e6f",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Category Code",
+                    "attributeValue": "76160",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+                },
+                {
                     "id": "890b2fca-95ff-4865-a715-032c812b955f",
                     "acm": {
                         "version": "3.0",
@@ -2263,6 +2990,36 @@
                     "attributeValue": "F",
                     "attributeType": "STRING",
                     "authoritySetAtTime": "2025-07-04T17:19:45.298684Z"
+                },
+                {
+                    "id": "b8f2a1c3-4d6e-7f8a-9b0c-2d3e4f5a6b7c",
+                    "acm": {
+                        "version": "3.0",
+                        "classif": "U",
+                        "classif_type": "US",
+                        "owner_prod": [
+                            "USA"
+                        ],
+                        "dissem_ctrls": [
+                            "REL"
+                        ],
+                        "rel_to": [
+                            "USA",
+                            "AUS",
+                            "CAN",
+                            "GBR",
+                            "NZL"
+                        ],
+                        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                        "f_clearance": [
+                            "U"
+                        ]
+                    },
+                    "attributeName": "Category Code",
+                    "attributeValue": "87180",
+                    "attributeType": "STRING",
+                    "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
                 },
                 {
                     "id": "40c14dae-9ef6-416b-acc3-3dd75546e799",

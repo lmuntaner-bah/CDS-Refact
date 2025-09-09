@@ -1,4 +1,4 @@
-classification_handler:
+restrictions:
   classifications:
     U: 0
     C: 1

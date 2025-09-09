@@ -1,0 +1,335 @@
+{
+  "version": 6,
+  "overallClassification": {
+    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+    "classification": "U",
+    "ownerProducer": [
+      "USA"
+    ],
+    "releaseableTo": [
+      "USA",
+      "AUS",
+      "CAN",
+      "GBR",
+      "NZL"
+    ],
+    "disseminationControls": [
+      "REL"
+    ]
+  },
+  "id": "99b3d2c7-8e5d-4c64-97a4-102dfd93d7e9",
+  "name": "INS Vikrant",
+  "createdDate": 1679630400,
+  "lastUpdatedDate": "2025-07-04T17:19:45.298959Z",
+  "excerciseIndicator": "gide-12345678",
+  "location": {
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
+    },
+    "id": "140954de-03a7-463f-a09e-d4b2cc0e1bda",
+    "timestamp": "2025-07-04T17:19:45.298971Z",
+    "latitude": 12.97,
+    "longitude": 77.59,
+    "derivation": "Point"
+  },
+  "maritimeMetadata": {
+    "sconum": {
+      "value": "SS-33445566",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "imo": {
+      "value": "IMO 9345678",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "mmsi": {
+      "value": "419443322",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "hullNumber": {
+      "value": "IAC-1",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "pennantNumber": {
+      "value": "R11",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipClass": {
+      "value": "Surface Vessel",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipName": {
+      "value": "INS Vikrant",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "ontology": {
+    "affiliation": {
+      "value": "H",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "nationality": {
+      "value": "IN",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "echelon": {
+      "value": "SHIP",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "domain": {
+      "value": "SEA",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "allegience": {
+      "value": "IND",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "coi": {
+      "value": "INDOPACOM",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "id": {
+      "value": "oms-6a151a33",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  }
+}

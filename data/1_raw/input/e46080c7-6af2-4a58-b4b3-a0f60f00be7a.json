@@ -1,0 +1,445 @@
+{
+    "id": "e46080c7-6af2-4a58-b4b3-a0f60f00be7a",
+    "version": 6,
+    "acm": {
+        "version": "3.0",
+        "classif": "U",
+        "classif_type": "US",
+        "owner_prod": [
+            "USA"
+        ],
+        "dissem_ctrls": [
+            "REL"
+        ],
+        "rel_to": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+        ],
+        "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "f_clearance": [
+            "U"
+        ]
+    },
+    "name": "HMS Sovereign",
+    "domain": "MARITIME",
+    "eoid": "oms-6585a610",
+    "gideId": "gide-12345678",
+    "classIri": "https://example.com/ontology/Surface Vessel",
+    "className": "Surface Vessel",
+    "allegience": "GBR",
+    "allegienceAor": "SOUTHCOM",
+    "attributes": {
+        "totalSize": 11,
+        "rollupAcm": {
+            "version": "3.0",
+            "classif": "U",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA",
+                "AUS",
+                "CAN",
+                "GBR",
+                "NZL"
+            ],
+            "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+            "f_clearance": [
+                "U"
+            ]
+        },
+        "data": [
+            {
+                "id": "b2c3d4e5-f6g7-8901-bcde-NEWID0000002",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Date Of Introduction",
+                "attributeValue": "2022-11-24",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2024-12-15T08:23:17.445Z"
+            },
+            {
+                "id": "fa008a2c-e82e-4890-8d45-fcc59529173c",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Adversary Status",
+                "attributeValue": "F",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298684Z"
+            },
+            {
+                "id": "40c14dae-9ef6-416b-acc3-3dd75546e799",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Allegience To",
+                "attributeValue": "GB",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298697Z"
+            },
+            {
+                "id": "f963172a-3385-4fcd-bd7a-260c897f750c",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Force",
+                "attributeValue": "NV",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298707Z"
+            },
+            {
+                "id": "d1300f83-9406-41f4-9a01-e386fe0e3ba9",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Echelon",
+                "attributeValue": "SHIP",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298719Z"
+            },
+            {
+                "id": "7ecdd21e-be31-4437-b6a5-068dea210be0",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Name",
+                "attributeValue": "HMS Sovereign",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298732Z"
+            },
+            {
+                "id": "dc3416e9-4b72-4cf7-a1f5-39315c0563f7",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "SCONUM",
+                "attributeValue": "SS-22334455",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298745Z"
+            },
+            {
+                "id": "adbf6d34-f86d-4e1e-8134-8f7b07e987ea",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Hull Number",
+                "attributeValue": "CVF-01",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298760Z"
+            },
+            {
+                "id": "9f4e0ecb-235a-4ea6-96c4-6240fa23dacf",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "Pennant Number",
+                "attributeValue": "R12",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298773Z"
+            },
+            {
+                "id": "0895bf77-7216-4c27-af57-428dfdb1bebf",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "MMSI Number",
+                "attributeValue": "235765432",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298783Z"
+            },
+            {
+                "id": "b41d02e2-5352-41e5-9f91-d21efeba682e",
+                "acm": {
+                    "version": "3.0",
+                    "classif": "U",
+                    "classif_type": "US",
+                    "owner_prod": [
+                        "USA"
+                    ],
+                    "dissem_ctrls": [
+                        "REL"
+                    ],
+                    "rel_to": [
+                        "USA",
+                        "AUS",
+                        "CAN",
+                        "GBR",
+                        "NZL"
+                    ],
+                    "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+                    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+                    "f_clearance": [
+                        "U"
+                    ]
+                },
+                "attributeName": "IMO Number",
+                "attributeValue": "IMO 9456123",
+                "attributeType": "STRING",
+                "authoritySetAtTime": "2025-07-04T17:19:45.298794Z"
+            }
+        ]
+    },
+    "lastVerified": {
+        "timestamp": "2025-07-04T17:19:45.298796Z",
+        "userId": "user-98765432"
+    },
+    "latestKnownLocation": {
+        "id": "e67dbfd3-2ca9-4368-af95-d4bf698e0236",
+        "version": 0,
+        "acm": {
+            "version": "3.0",
+            "classif": "U",
+            "classif_type": "US",
+            "owner_prod": [
+                "USA"
+            ],
+            "dissem_ctrls": [
+                "REL"
+            ],
+            "rel_to": [
+                "USA",
+                "AUS",
+                "CAN",
+                "GBR",
+                "NZL"
+            ],
+            "portion": "U//REL TO USA, AUS, CAN, GBR, NZL",
+            "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+            "f_clearance": [
+                "U"
+            ]
+        },
+        "confidence": "MEDIUM",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -4.25,
+                50.37,
+                0.0
+            ],
+            "crs": {
+                "Type": "name",
+                "properties": {
+                    "name": "EPSG:4326"
+                }
+            }
+        },
+        "startTime": "2025-07-04T17:19:45.298806Z",
+        "endTime": "2025-07-04T17:19:45.298808Z",
+        "lastVerified": {
+            "timestamp": "2025-07-04T17:19:45.298809Z",
+            "userId": "user-98765432"
+        }
+    }
+}

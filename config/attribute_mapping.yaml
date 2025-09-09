@@ -8,6 +8,10 @@
 
 attribute_mapping:
   # Root level attributes (placed directly in the object)
+  "Primary Mission":
+    field: "primaryMission"
+    container: "root"
+  
   "Operational Status":
     field: "operationalStatus"
     container: "root"
@@ -37,9 +41,18 @@ attribute_mapping:
     field: "pennantNumber"
     container: "maritimeMetadata"
 
+  # Land metadata container attributes
+  "Basic Encyclopedia Number":
+    field: "beNumber"
+    container: "landMetadata"
+
   # Equipment container attributes
   "Equipment Code":
     field: "midbEquipmentCode"
+    container: "equipment"
+  
+  "Category Code":
+    field: "equipmentCategory"
     container: "equipment"
   
   "Military Symbology Code":
@@ -76,15 +89,15 @@ attribute_mapping:
     field: "echelon"
     container: "ontology"
   
-  "domain":
+  "Domain":
     field: "domain"
     container: "ontology"
   
-  "allegience":
+  "Allegience":
     field: "allegience"
     container: "ontology"
   
-  "allegienceAor":
+  "Allegience Aor":
     field: "coi"
     container: "ontology"
 
@@ -98,6 +111,6 @@ attribute_mapping:
     container: "facility"
 
   # Provenance container attributes
-  "eoid":
+  "Enterprise Object ID":
     field: "id"
     container: "provenance"

@@ -1,0 +1,397 @@
+{
+  "version": 3,
+  "overallClassification": {
+    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+    "classification": "U",
+    "ownerProducer": [
+      "USA"
+    ],
+    "releaseableTo": [
+      "USA",
+      "AUS",
+      "CAN",
+      "GBR",
+      "NZL"
+    ],
+    "disseminationControls": [
+      "REL"
+    ]
+  },
+  "id": "87654321-dcba-hgfe-lkji-xwvutsrqponm",
+  "name": "Dong Hai FF-523",
+  "createdDate": 1732338000,
+  "lastUpdatedDate": "2025-06-12T11:34:22.567Z",
+  "excerciseIndicator": "gide-12345678",
+  "location": {
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
+    },
+    "id": "b2c3d4e5-f6g7-8901-bcde-hd2345678900",
+    "timestamp": "2025-06-12T11:34:22.567Z",
+    "latitude": 29.123456,
+    "longitude": 118.245671,
+    "derivation": "Point"
+  },
+  "maritimeMetadata": {
+    "sconum": {
+      "value": "FF-87654321",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "imo": {
+      "value": "IMO 9543218",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "mmsi": {
+      "value": "412334578",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "hullNumber": {
+      "value": "FFG-523",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "pennantNumber": {
+      "value": "523",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipClass": {
+      "value": "Surface Vessel",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipName": {
+      "value": "Dong Hai FF-523",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "equipment": {
+    "symbology2525C": {
+      "value": "SFAPG----------",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "capability": {
+      "value": "N",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "ontology": {
+    "affiliation": {
+      "value": "H",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "nationality": {
+      "value": "CH",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "echelon": {
+      "value": "SHIP",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "domain": {
+      "value": "MARITIME",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "allegience": {
+      "value": "CHN",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "coi": {
+      "value": "INDOPACOM",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "id": {
+      "value": "oms-451267",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "functionalRole": {
+    "value": "NOB",
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
+    }
+  }
+}

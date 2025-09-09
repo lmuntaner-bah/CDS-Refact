@@ -1,0 +1,357 @@
+{
+  "version": 6,
+  "overallClassification": {
+    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+    "classification": "U",
+    "ownerProducer": [
+      "USA"
+    ],
+    "releaseableTo": [
+      "USA",
+      "AUS",
+      "CAN",
+      "GBR",
+      "NZL"
+    ],
+    "disseminationControls": [
+      "REL"
+    ]
+  },
+  "id": "59a4e7ed-778c-4b5f-824b-521fca1b9ba7",
+  "name": "USS Chin Chong",
+  "createdDate": 1679630400,
+  "lastUpdatedDate": "2025-07-04T17:19:45.298603Z",
+  "excerciseIndicator": "gide-12345678",
+  "location": {
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
+    },
+    "id": "a52176c3-b473-4782-b0e4-4b045ed61ec0",
+    "timestamp": "2025-07-04T17:19:45.298641Z",
+    "latitude": 33.78,
+    "longitude": -120.76,
+    "derivation": "Point"
+  },
+  "maritimeMetadata": {
+    "sconum": {
+      "value": "SS-87654321",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "imo": {
+      "value": "IMO 9876543",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "mmsi": {
+      "value": "366876543",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "hullNumber": {
+      "value": "DDG-105",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "pennantNumber": {
+      "value": "D47",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipClass": {
+      "value": "Surface Vessel",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipName": {
+      "value": "USS Chin Chong",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "equipment": {
+    "condition": {
+      "value": "UNC",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "ontology": {
+    "affiliation": {
+      "value": "F",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "nationality": {
+      "value": "CH",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "echelon": {
+      "value": "SHIP",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "domain": {
+      "value": "MARITIME",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "allegience": {
+      "value": "CHN",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "coi": {
+      "value": "INDOPACOM",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "id": {
+      "value": "oms-4f4091f0",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  }
+}
