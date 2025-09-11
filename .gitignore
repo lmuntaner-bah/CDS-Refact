@@ -1,3 +1,5 @@
 __pycache__/
 
 cds_refact.egg-info/
+
+.DS_Store
