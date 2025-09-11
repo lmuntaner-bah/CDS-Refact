@@ -3,7 +3,7 @@
     "version": 6,
     "acm": {
         "version": "3.0",
-        "classif": "TS",
+        "classif": "S",
         "classif_type": "US",
         "owner_prod": [
             "USA"
@@ -14,10 +14,10 @@
         "rel_to": [
             "USA"
         ],
-        "portion": "TOP SECRET//REL TO USA",
-        "banner": "TS//REL TO USA",
+        "portion": "S//REL TO USA",
+        "banner": "SECRET//REL TO USA",
         "f_clearance": [
-            "TS"
+            "S"
         ]
     },
     "name": "CNS Liaoning",

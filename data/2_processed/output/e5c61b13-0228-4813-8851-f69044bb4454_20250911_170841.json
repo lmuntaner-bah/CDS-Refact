@@ -17,38 +17,40 @@
       "REL"
     ]
   },
-  "id": "e46080c7-6af2-4a58-b4b3-a0f60f00be7a",
-  "name": "HMS Sovereign",
-  "createdDate": 1669266000,
-  "lastUpdatedDate": "2025-07-04T17:19:45.298796Z",
+  "id": "e5c61b13-0228-4813-8851-f69044bb4454",
+  "name": "MV Pacific Trader",
+  "createdDate": 1695355200,
+  "lastUpdatedDate": 1751663985,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "e67dbfd3-2ca9-4368-af95-d4bf698e0236",
-    "timestamp": "2025-07-04T17:19:45.298809Z",
-    "latitude": 50.37,
-    "longitude": -4.25,
-    "derivation": "Point"
-  },
+  "location": [
+    {
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      },
+      "id": "a1fbfe30-4cab-4a62-b0eb-0c02bde5f702",
+      "timestamp": "2025-07-04T17:19:45.299766Z",
+      "latitude": 1.35,
+      "longitude": 103.81,
+      "derivation": "Point"
+    }
+  ],
   "maritimeMetadata": {
     "sconum": {
-      "value": "SS-22334455",
+      "value": "SS-55667788",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -68,7 +70,7 @@
       }
     },
     "imo": {
-      "value": "IMO 9456123",
+      "value": "IMO 9678901",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -88,7 +90,7 @@
       }
     },
     "mmsi": {
-      "value": "235765432",
+      "value": "563998877",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -108,7 +110,7 @@
       }
     },
     "hullNumber": {
-      "value": "CVF-01",
+      "value": "T-AKE-9",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -128,7 +130,7 @@
       }
     },
     "pennantNumber": {
-      "value": "R12",
+      "value": "A45",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -168,7 +170,29 @@
       }
     },
     "shipName": {
-      "value": "HMS Sovereign",
+      "value": "MV Pacific Trader",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "unit": {
+    "id": {
+      "value": "DFGCH00777",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -190,7 +214,7 @@
   },
   "ontology": {
     "affiliation": {
-      "value": "F",
+      "value": "N",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -210,7 +234,7 @@
       }
     },
     "nationality": {
-      "value": "GB",
+      "value": "SG",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -250,7 +274,7 @@
       }
     },
     "domain": {
-      "value": "MARITIME",
+      "value": "SEA",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -270,7 +294,7 @@
       }
     },
     "allegience": {
-      "value": "GBR",
+      "value": "SGP",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -290,7 +314,7 @@
       }
     },
     "coi": {
-      "value": "SOUTHCOM",
+      "value": "INDOPACOM",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -310,26 +334,28 @@
       }
     }
   },
-  "provenance": {
-    "id": {
-      "value": "oms-6585a610",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-59b2df9d",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
     }
-  }
+  ]
 }

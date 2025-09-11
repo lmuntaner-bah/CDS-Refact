@@ -1,54 +1,52 @@
 {
   "version": 6,
   "overallClassification": {
-    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-    "classification": "U",
+    "banner": "SECRET//REL TO USA",
+    "classification": "S",
     "ownerProducer": [
       "USA"
     ],
     "releaseableTo": [
-      "USA",
-      "AUS",
-      "CAN",
-      "GBR",
-      "NZL"
+      "USA"
     ],
     "disseminationControls": [
       "REL"
     ]
   },
-  "id": "e5c61b13-0228-4813-8851-f69044bb4454",
-  "name": "MV Pacific Trader",
-  "createdDate": 1695355200,
-  "lastUpdatedDate": "2025-07-04T17:19:45.299740Z",
+  "id": "8ce21169-14a4-4a8b-a6ef-e177b1b10e5c",
+  "name": "CNS Liaoning",
+  "createdDate": 1677214800,
+  "lastUpdatedDate": 1751663985,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "a1fbfe30-4cab-4a62-b0eb-0c02bde5f702",
-    "timestamp": "2025-07-04T17:19:45.299766Z",
-    "latitude": 1.35,
-    "longitude": 103.81,
-    "derivation": "Point"
-  },
+  "location": [
+    {
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      },
+      "id": "c024cb6e-1a79-44af-bfc7-4cf531dbf2e4",
+      "timestamp": "2025-07-04T17:19:45.304553Z",
+      "latitude": 31.23,
+      "longitude": 121.47,
+      "derivation": "Point"
+    }
+  ],
   "maritimeMetadata": {
     "sconum": {
-      "value": "SS-55667788",
+      "value": "SS-66778899",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -68,7 +66,7 @@
       }
     },
     "imo": {
-      "value": "IMO 9678901",
+      "value": "IMO 9239999",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -88,7 +86,7 @@
       }
     },
     "mmsi": {
-      "value": "563998877",
+      "value": "412998877",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -108,7 +106,7 @@
       }
     },
     "hullNumber": {
-      "value": "T-AKE-9",
+      "value": "CV-16",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -128,7 +126,7 @@
       }
     },
     "pennantNumber": {
-      "value": "A45",
+      "value": "R16",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -150,17 +148,13 @@
     "shipClass": {
       "value": "Surface Vessel",
       "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
+        "banner": "SECRET//REL TO USA",
+        "classification": "S",
         "ownerProducer": [
           "USA"
         ],
         "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
+          "USA"
         ],
         "disseminationControls": [
           "REL"
@@ -168,29 +162,7 @@
       }
     },
     "shipName": {
-      "value": "MV Pacific Trader",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    }
-  },
-  "unit": {
-    "id": {
-      "value": "DFGCH00777",
+      "value": "CNS Liaoning",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -212,7 +184,7 @@
   },
   "ontology": {
     "affiliation": {
-      "value": "N",
+      "value": "H",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -232,7 +204,7 @@
       }
     },
     "nationality": {
-      "value": "SG",
+      "value": "CH",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -272,19 +244,15 @@
       }
     },
     "domain": {
-      "value": "SEA",
+      "value": "MARITIME",
       "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
+        "banner": "SECRET//REL TO USA",
+        "classification": "S",
         "ownerProducer": [
           "USA"
         ],
         "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
+          "USA"
         ],
         "disseminationControls": [
           "REL"
@@ -292,19 +260,15 @@
       }
     },
     "allegience": {
-      "value": "SGP",
+      "value": "CHN",
       "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
+        "banner": "SECRET//REL TO USA",
+        "classification": "S",
         "ownerProducer": [
           "USA"
         ],
         "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
+          "USA"
         ],
         "disseminationControls": [
           "REL"
@@ -314,17 +278,13 @@
     "coi": {
       "value": "INDOPACOM",
       "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
+        "banner": "SECRET//REL TO USA",
+        "classification": "S",
         "ownerProducer": [
           "USA"
         ],
         "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
+          "USA"
         ],
         "disseminationControls": [
           "REL"
@@ -332,26 +292,24 @@
       }
     }
   },
-  "provenance": {
-    "id": {
-      "value": "oms-59b2df9d",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-27c24c8f",
+        "ism": {
+          "banner": "SECRET//REL TO USA",
+          "classification": "S",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
     }
-  }
+  ]
 }

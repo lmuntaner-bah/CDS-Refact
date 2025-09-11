@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 6,
   "overallClassification": {
     "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
     "classification": "U",
@@ -17,41 +17,40 @@
       "REL"
     ]
   },
-  "id": "34567890-cdef-ghij-klmn-opqrstuvwxyz",
-  "name": "Plesetsk North Tracking Station 2",
-  "createdDate": 1728014400,
-  "lastUpdatedDate": "2025-02-28T09:17:33.456Z",
+  "id": "59a4e7ed-778c-4b5f-824b-521fca1b9ba7",
+  "name": "USS Chin Chong",
+  "createdDate": 1679630400,
+  "lastUpdatedDate": 1751663985,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "c3d4e5f6-g7h8-9012-cdef-hf3456789021",
-    "timestamp": "2025-02-25T07:19:55.234Z",
-    "latitude": 62.925556,
-    "longitude": 40.577889,
-    "elevation": {
-      "value": 2280.0
-    },
-    "derivation": "Point"
-  },
-  "equipment": {
-    "midbEquipmentCode": {
-      "value": "CAATV",
+  "location": [
+    {
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      },
+      "id": "a52176c3-b473-4782-b0e4-4b045ed61ec0",
+      "timestamp": "2025-07-04T17:19:45.298641Z",
+      "latitude": 33.78,
+      "longitude": -120.76,
+      "derivation": "Point"
+    }
+  ],
+  "maritimeMetadata": {
+    "sconum": {
+      "value": "SS-87654321",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -70,8 +69,8 @@
         ]
       }
     },
-    "symbology2525C": {
-      "value": "SHAPH----------",
+    "imo": {
+      "value": "IMO 9876543",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -90,8 +89,88 @@
         ]
       }
     },
-    "condition": {
-      "value": "X",
+    "mmsi": {
+      "value": "366876543",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "hullNumber": {
+      "value": "DDG-105",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "pennantNumber": {
+      "value": "D47",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipClass": {
+      "value": "Surface Vessel",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipName": {
+      "value": "USS Chin Chong",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -111,9 +190,33 @@
       }
     }
   },
+  "equipment": [
+    {
+      "condition": {
+        "value": "UNC",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
+      }
+    }
+  ],
   "ontology": {
     "affiliation": {
-      "value": "H",
+      "value": "F",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -133,7 +236,27 @@
       }
     },
     "nationality": {
-      "value": "RU",
+      "value": "CH",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "echelon": {
+      "value": "SHIP",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -153,7 +276,7 @@
       }
     },
     "domain": {
-      "value": "GROUND",
+      "value": "MARITIME",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -173,7 +296,7 @@
       }
     },
     "allegience": {
-      "value": "RUS",
+      "value": "CHN",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -193,7 +316,7 @@
       }
     },
     "coi": {
-      "value": "NORTHCOM",
+      "value": "INDOPACOM",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -213,128 +336,28 @@
       }
     }
   },
-  "facility": {
-    "facilitySurrogateKey": {
-      "value": "30003000815644",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "facilityId": {
-      "value": "33672",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "facilityName": {
-      "value": "Plesetsk North Tracking Station 2",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-4f4091f0",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
     }
-  },
-  "provenance": {
-    "id": {
-      "value": "oms-34567890",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    }
-  },
-  "operationalStatus": {
-    "value": "UCO",
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    }
-  },
-  "functionalRole": {
-    "value": "TRA",
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    }
-  }
+  ]
 }

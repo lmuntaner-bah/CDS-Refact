@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 3,
   "overallClassification": {
     "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
     "classification": "U",
@@ -17,38 +17,40 @@
       "REL"
     ]
   },
-  "id": "59a4e7ed-778c-4b5f-824b-521fca1b9ba7",
-  "name": "USS Chin Chong",
-  "createdDate": 1679630400,
-  "lastUpdatedDate": "2025-07-04T17:19:45.298603Z",
+  "id": "87654321-dcba-hgfe-lkji-xwvutsrqponm",
+  "name": "Dong Hai FF-523",
+  "createdDate": 1732338000,
+  "lastUpdatedDate": 1749742462,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "a52176c3-b473-4782-b0e4-4b045ed61ec0",
-    "timestamp": "2025-07-04T17:19:45.298641Z",
-    "latitude": 33.78,
-    "longitude": -120.76,
-    "derivation": "Point"
-  },
+  "location": [
+    {
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      },
+      "id": "b2c3d4e5-f6g7-8901-bcde-hd2345678900",
+      "timestamp": "2025-06-12T11:34:22.567Z",
+      "latitude": 29.123456,
+      "longitude": 118.245671,
+      "derivation": "Point"
+    }
+  ],
   "maritimeMetadata": {
     "sconum": {
-      "value": "SS-87654321",
+      "value": "FF-87654321",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -68,7 +70,7 @@
       }
     },
     "imo": {
-      "value": "IMO 9876543",
+      "value": "IMO 9543218",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -88,7 +90,7 @@
       }
     },
     "mmsi": {
-      "value": "366876543",
+      "value": "412334578",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -108,7 +110,7 @@
       }
     },
     "hullNumber": {
-      "value": "DDG-105",
+      "value": "FFG-523",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -128,7 +130,7 @@
       }
     },
     "pennantNumber": {
-      "value": "D47",
+      "value": "523",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -168,7 +170,7 @@
       }
     },
     "shipName": {
-      "value": "USS Chin Chong",
+      "value": "Dong Hai FF-523",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -188,31 +190,53 @@
       }
     }
   },
-  "equipment": {
-    "condition": {
-      "value": "UNC",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "equipment": [
+    {
+      "symbology2525C": {
+        "value": "SFAPG----------",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
+      },
+      "capability": {
+        "value": "N",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
     }
-  },
+  ],
   "ontology": {
     "affiliation": {
-      "value": "F",
+      "value": "H",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -332,26 +356,48 @@
       }
     }
   },
-  "provenance": {
-    "id": {
-      "value": "oms-4f4091f0",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-451267",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
+    }
+  ],
+  "functionalRole": {
+    "value": "NOB",
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
     }
   }
 }

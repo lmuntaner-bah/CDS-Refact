@@ -414,7 +414,7 @@
                     ]
                 },
                 "attributeName": "Military Symbology Code",
-                "attributeValue": "SFAPF----------",
+                "attributeValue": "SFAPF----------------------",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2024-12-15T08:23:21.789Z"
             },

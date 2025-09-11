@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 3,
   "overallClassification": {
     "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
     "classification": "U",
@@ -17,38 +17,13 @@
       "REL"
     ]
   },
-  "id": "99b3d2c7-8e5d-4c64-97a4-102dfd93d7e9",
-  "name": "INS Vikrant",
-  "createdDate": 1679630400,
-  "lastUpdatedDate": "2025-07-04T17:19:45.298959Z",
+  "id": "23456789-bcde-fghi-jklm-nopqrstuvwxy",
+  "name": "Dongfeng East Command Center 1",
+  "createdDate": 1720065600,
+  "lastUpdatedDate": 1737217365,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "140954de-03a7-463f-a09e-d4b2cc0e1bda",
-    "timestamp": "2025-07-04T17:19:45.298971Z",
-    "latitude": 12.97,
-    "longitude": 77.59,
-    "derivation": "Point"
-  },
-  "maritimeMetadata": {
-    "sconum": {
-      "value": "SS-33445566",
+  "location": [
+    {
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -65,110 +40,84 @@
         "disseminationControls": [
           "REL"
         ]
+      },
+      "id": "b2c3d4e5-f6g7-8901-bcde-he2345678910",
+      "timestamp": "2025-01-15T14:33:21.567Z",
+      "latitude": 32.456789,
+      "longitude": 116.789234,
+      "elevation": {
+        "value": 5280.0
+      },
+      "derivation": "Point"
+    }
+  ],
+  "equipment": [
+    {
+      "midbEquipmentCode": {
+        "value": "L9ASQ",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
+      },
+      "symbology2525C": {
+        "value": "SFAPF----------",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
+      },
+      "condition": {
+        "value": "RDY",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
-    },
-    "imo": {
-      "value": "IMO 9345678",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "mmsi": {
-      "value": "419443322",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "hullNumber": {
-      "value": "IAC-1",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "pennantNumber": {
-      "value": "R11",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "shipClass": {
-      "value": "Surface Vessel",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "shipName": {
-      "value": "INS Vikrant",
+    }
+  ],
+  "unit": {
+    "id": {
+      "value": "DFGCH01256",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -210,27 +159,7 @@
       }
     },
     "nationality": {
-      "value": "IN",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "echelon": {
-      "value": "SHIP",
+      "value": "CH",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -250,7 +179,7 @@
       }
     },
     "domain": {
-      "value": "SEA",
+      "value": "GROUND",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -270,7 +199,7 @@
       }
     },
     "allegience": {
-      "value": "IND",
+      "value": "CHN",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -310,9 +239,9 @@
       }
     }
   },
-  "provenance": {
-    "id": {
-      "value": "oms-6a151a33",
+  "facility": {
+    "facilitySurrogateKey": {
+      "value": "20002000704933",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -330,6 +259,110 @@
           "REL"
         ]
       }
+    },
+    "facilityId": {
+      "value": "20845",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "facilityName": {
+      "value": "Dongfeng East Command Center 1",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    }
+  },
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-23456789",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
+      }
+    }
+  ],
+  "operationalStatus": {
+    "value": "OPR",
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
+    }
+  },
+  "functionalRole": {
+    "value": "COM",
+    "ism": {
+      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+      "classification": "U",
+      "ownerProducer": [
+        "USA"
+      ],
+      "releaseableTo": [
+        "USA",
+        "AUS",
+        "CAN",
+        "GBR",
+        "NZL"
+      ],
+      "disseminationControls": [
+        "REL"
+      ]
     }
   }
 }

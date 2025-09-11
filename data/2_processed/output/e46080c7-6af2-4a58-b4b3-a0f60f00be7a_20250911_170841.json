@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 6,
   "overallClassification": {
-    "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-    "classification": "S",
+    "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+    "classification": "U",
     "ownerProducer": [
       "USA"
     ],
@@ -17,41 +17,13 @@
       "REL"
     ]
   },
-  "id": "23456789-aaaa-bbbb-nnnn-nopqrstuvwxy",
-  "name": "Hidden Leaf Village Command Center 1",
-  "createdDate": 1720065600,
-  "lastUpdatedDate": "2025-01-18T11:22:45.789Z",
+  "id": "e46080c7-6af2-4a58-b4b3-a0f60f00be7a",
+  "name": "HMS Sovereign",
+  "createdDate": 1669266000,
+  "lastUpdatedDate": 1751663985,
   "excerciseIndicator": "gide-12345678",
-  "location": {
-    "ism": {
-      "banner": "TOP SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "TS",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    },
-    "id": "b2c3d4e5-f6g7-8901-bcde-he2345678910",
-    "timestamp": "2025-01-15T14:33:21.567Z",
-    "latitude": 32.456789,
-    "longitude": 116.789234,
-    "elevation": {
-      "value": 5280.0
-    },
-    "derivation": "Point"
-  },
-  "equipment": {
-    "midbEquipmentCode": {
-      "value": "L9ASQ",
+  "location": [
+    {
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -68,52 +40,137 @@
         "disseminationControls": [
           "REL"
         ]
-      }
-    },
-    "symbology2525C": {
-      "value": "SFAPF",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "condition": {
-      "value": "RDY",
-      "ism": {
-        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "U",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
+      },
+      "id": "e67dbfd3-2ca9-4368-af95-d4bf698e0236",
+      "timestamp": "2025-07-04T17:19:45.298809Z",
+      "latitude": 50.37,
+      "longitude": -4.25,
+      "derivation": "Point"
     }
-  },
-  "unit": {
-    "id": {
-      "value": "DFGCH01256",
+  ],
+  "maritimeMetadata": {
+    "sconum": {
+      "value": "SS-22334455",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "imo": {
+      "value": "IMO 9456123",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "mmsi": {
+      "value": "235765432",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "hullNumber": {
+      "value": "CVF-01",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "pennantNumber": {
+      "value": "R12",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipClass": {
+      "value": "Surface Vessel",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "shipName": {
+      "value": "HMS Sovereign",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -155,7 +212,27 @@
       }
     },
     "nationality": {
-      "value": "JP",
+      "value": "GB",
+      "ism": {
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
+        "ownerProducer": [
+          "USA"
+        ],
+        "releaseableTo": [
+          "USA",
+          "AUS",
+          "CAN",
+          "GBR",
+          "NZL"
+        ],
+        "disseminationControls": [
+          "REL"
+        ]
+      }
+    },
+    "echelon": {
+      "value": "SHIP",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -175,69 +252,7 @@
       }
     },
     "domain": {
-      "value": "GROUND",
-      "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "allegience": {
-      "value": "JAP",
-      "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    },
-    "coi": {
-      "value": "INDOPACOM",
-      "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
-      }
-    }
-  },
-  "facility": {
-    "facilitySurrogateKey": {
-      "value": "20002000704933",
+      "value": "MARITIME",
       "ism": {
         "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
         "classification": "U",
@@ -256,11 +271,11 @@
         ]
       }
     },
-    "facilityId": {
-      "value": "20845",
+    "allegience": {
+      "value": "GBR",
       "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
         "ownerProducer": [
           "USA"
         ],
@@ -276,11 +291,11 @@
         ]
       }
     },
-    "facilityName": {
-      "value": "Hidden Leaf Village Command Center 1",
+    "coi": {
+      "value": "SOUTHCOM",
       "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
+        "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+        "classification": "U",
         "ownerProducer": [
           "USA"
         ],
@@ -297,66 +312,28 @@
       }
     }
   },
-  "provenance": {
-    "id": {
-      "value": "oms-23456789",
-      "ism": {
-        "banner": "SECRET//REL TO USA, AUS, CAN, GBR, NZL",
-        "classification": "S",
-        "ownerProducer": [
-          "USA"
-        ],
-        "releaseableTo": [
-          "USA",
-          "AUS",
-          "CAN",
-          "GBR",
-          "NZL"
-        ],
-        "disseminationControls": [
-          "REL"
-        ]
+  "provenance": [
+    {
+      "id": {
+        "value": "oms-6585a610",
+        "ism": {
+          "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
+          "classification": "U",
+          "ownerProducer": [
+            "USA"
+          ],
+          "releaseableTo": [
+            "USA",
+            "AUS",
+            "CAN",
+            "GBR",
+            "NZL"
+          ],
+          "disseminationControls": [
+            "REL"
+          ]
+        }
       }
     }
-  },
-  "operationalStatus": {
-    "value": "OPR",
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    }
-  },
-  "functionalRole": {
-    "value": "COM",
-    "ism": {
-      "banner": "UNCLASSIFIED//REL TO USA, AUS, CAN, GBR, NZL",
-      "classification": "U",
-      "ownerProducer": [
-        "USA"
-      ],
-      "releaseableTo": [
-        "USA",
-        "AUS",
-        "CAN",
-        "GBR",
-        "NZL"
-      ],
-      "disseminationControls": [
-        "REL"
-      ]
-    }
-  }
+  ]
 }

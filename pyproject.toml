@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cds-refact"
+version = "0.1.0"
+description = "CDS Refactoring Project"
+authors = [{name = "Leonardo Muntaner", email = "muntaner_leonardo@bah.com"}]
+dependencies = [
+    "loguru",
+    "rich",
+    "pyyaml",
+    "jsonschema",
+    "notebook",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.setuptools.package-dir]
+"" = "."
