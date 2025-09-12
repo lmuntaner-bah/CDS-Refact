@@ -30,8 +30,8 @@
     "gideId": "gide-12345678",
     "classIri": "https://example.com/ontology/Facility",
     "className": "Facility",
-    "allegience": "CHN",
-    "allegienceAor": "INDOPACOM",
+    "allegiance": "CHN",
+    "allegianceAor": "INDOPACOM",
     "attributes": {
         "totalSize": 14,
         "rollupAcm": {
@@ -263,7 +263,7 @@
                         "U"
                     ]
                 },
-                "attributeName": "Allegience To",
+                "attributeName": "Allegiance To",
                 "attributeValue": "CH",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2024-12-15T08:23:20.567Z"

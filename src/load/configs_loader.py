@@ -4,6 +4,26 @@ from loguru import logger
 from typing import Dict, Any
 
 
+def load_valid_attribute_names(file_path: str) -> list:
+    """
+    Loads the list of valid attribute names from a YAML file.
+
+    Args:
+    - file_path (str): Path to the YAML file containing valid attribute names.
+
+    Returns:
+    - list: A list of valid attribute names.
+    """
+    try:
+        with open(file_path, "r") as file:
+            data = yaml.safe_load(file)
+            logger.info("Loaded valid attribute names successfully.")
+            return data.get("valid_attribute_names", [])
+    except Exception as e:
+        logger.error(f"Error loading valid attribute names: {e}")
+        return []
+
+
 def load_attribute_mapping(config_file: str) -> Dict[str, Dict[str, str]]:
     """
     Load attribute mapping configuration from a YAML file.

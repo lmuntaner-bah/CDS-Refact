@@ -77,7 +77,7 @@ attribute_mapping:
     field: "affiliation"
     container: "ontology"
     
-  "Allegience To":
+  "Allegiance To":
     field: "nationality"
     container: "ontology"
   
@@ -93,11 +93,11 @@ attribute_mapping:
     field: "domain"
     container: "ontology"
   
-  "Allegience":
-    field: "allegience"
+  "Allegiance":
+    field: "allegiance"
     container: "ontology"
   
-  "Allegience Aor":
+  "Allegiance Aor":
     field: "coi"
     container: "ontology"
 

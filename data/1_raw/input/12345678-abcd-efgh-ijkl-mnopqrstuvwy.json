@@ -30,8 +30,8 @@
     "gideId": "gide-73479",
     "classIri": "https://example.com/ontology/Surface Vessel",
     "className": "Surface Vessel",
-    "allegience": "CHN",
-    "allegienceAor": "INDOPACOM",
+    "allegiance": "CHN",
+    "allegianceAor": "INDOPACOM",
     "attributes": {
         "totalSize": 0,
         "rollupAcm": {

@@ -189,8 +189,8 @@ def prepare_attribute_index(source: Dict[str, Any]) -> Dict[str, Dict]:
     # Define top-level fields to be included in attribute mapping
     top_level_fields = {
         "domain": "Domain",
-        "allegience": "Allegience",
-        "allegienceAor": "Allegience Aor",
+        "allegiance": "Allegiance",
+        "allegianceAor": "Allegiance Aor",
         "eoid": "Enterprise Object ID",
     }
 

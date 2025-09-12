@@ -4,10 +4,11 @@ from loguru import logger
 from datetime import datetime
 from typing import Dict, Any, List
 from src.utils.validater import validate_all_standard_objects
+from src.utils.attribute_drift_detector import detect_unexpected_attribute_names
 from src.extract.object_extractor import fetch_all_objects
 from src.transform.preprocessor import prepare_dates
 from src.transform.object_parser import process_objects, clean_object
-from src.load.configs_loader import load_attribute_mapping, load_classification_config
+from src.load.configs_loader import load_attribute_mapping, load_classification_config, load_valid_attribute_names
 
 
 def _save_standard_objects(
@@ -70,6 +71,8 @@ def run_pipeline(
     output_path: str,
     restrictions_path: str,
     schema_path: str,
+    valid_attributes_path: str,
+    attribute_report_path: str,
 ) -> tuple[List[Dict[str, Any]], Dict[str, Any]] | None:
     """
     Orchestrates the main data processing workflow:
@@ -83,6 +86,8 @@ def run_pipeline(
         output_path (str): Directory path to save the processed standard objects.
         restrictions_path (str): Path to the JSON configuration file for classification restrictions.
         schema_path (str): Path to the JSON schema file for validation.
+        valid_attributes_path (str): Path to the JSON file containing valid attribute names.
+        attribute_report_path (str): Path to save the attribute report for unexpected attributes.
 
     Returns:
         tuple[List[Dict[str, Any]], Dict[str, Any]]:
@@ -99,10 +104,16 @@ def run_pipeline(
         source_objects = fetch_all_objects(data_path)
         logger.info(f"Fetched {len(source_objects)} objects")
 
-        # Load attribute mapping and restrictions from configuration file
+        # Load attribute mapping, restrictions, and valid attribute names from configuration file
         attribute_mapping = load_attribute_mapping(attribute_mapping_path)
+        valid_attribute_names = load_valid_attribute_names(valid_attributes_path)
         restrictions_config = load_classification_config(restrictions_path)
 
+        # Detect unexpected attribute names across all source objects
+        detect_unexpected_attribute_names(
+            source_objects, valid_attribute_names, attribute_report_path
+        )
+        
         # Prepare dates in source objects
         source_objects = prepare_dates(source_objects)
 

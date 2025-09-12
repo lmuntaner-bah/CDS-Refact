@@ -30,8 +30,8 @@
     "gideId": "gide-12345678",
     "classIri": "https://example.com/ontology/Surface Vessel",
     "className": "Surface Vessel",
-    "allegience": "SGP",
-    "allegienceAor": "INDOPACOM",
+    "allegiance": "SGP",
+    "allegianceAor": "INDOPACOM",
     "attributes": {
         "totalSize": 11,
         "rollupAcm": {
@@ -173,7 +173,7 @@
                         "U"
                     ]
                 },
-                "attributeName": "Allegience To",
+                "attributeName": "Allegiance To",
                 "attributeValue": "SG",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2025-07-04T17:19:45.299304Z"

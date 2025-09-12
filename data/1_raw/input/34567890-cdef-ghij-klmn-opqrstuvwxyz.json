@@ -30,8 +30,8 @@
     "gideId": "gide-12345678",
     "classIri": "https://example.com/ontology/Facility",
     "className": "Facility",
-    "allegience": "RUS",
-    "allegienceAor": "NORTHCOM",
+    "allegiance": "RUS",
+    "allegianceAor": "NORTHCOM",
     "attributes": {
         "totalSize": 13,
         "rollupAcm": {
@@ -232,7 +232,7 @@
                         "U"
                     ]
                 },
-                "attributeName": "Allegience To",
+                "attributeName": "Allegiance To",
                 "attributeValue": "RU",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2024-09-22T16:45:37.345Z"

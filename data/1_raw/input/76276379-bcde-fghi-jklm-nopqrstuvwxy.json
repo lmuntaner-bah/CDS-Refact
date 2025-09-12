@@ -26,8 +26,8 @@
     "gideId": "gide-12345678",
     "classIri": "https://example.com/ontology/Facility",
     "className": "Facility",
-    "allegience": "CHN",
-    "allegienceAor": "INDOPACOM",
+    "allegiance": "CHN",
+    "allegianceAor": "INDOPACOM",
     "attributes": {
         "totalSize": 14,
         "rollupAcm": {
