@@ -10,7 +10,7 @@ cds_refact.egg-info/
 # EDA notebooks
 notebooks/databricks_load.ipynb
 notebooks/detect_attribute_name_change.ipynb
-notebooks/parse_locations.ipynb
+notebooks/parse_location.ipynb
 notebooks/preprocessor.ipynb
 notebooks/validate_classifications.ipynb
 notebooks/validate_standard_objects.ipynb
