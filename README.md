@@ -36,10 +36,6 @@ This project processes raw source objects from an object management system and t
 ├── notebooks/                                # Jupyter notebooks for development/analysis
 │   ├── oms_pipeline_flow.ipynb              # Cell-by-Cell pipeline flow
 │   ├── oms_pipeline_main.ipynb              # Main pipeline flow
-│   ├── parse_location.ipynb                 # Location parsing logic
-│   ├── preprocessor.ipynb                   # Data preprocessing
-│   ├── validate_classifications.ipynb        # Classification validation
-│   └── validate_standard_objects.ipynb      # Schema validation
 └── src/                                      # Source code modules
     ├── __init__.py
     ├── extract/
@@ -160,9 +156,8 @@ pip install -e .
    - Run transformation and validation
    - Output standardized objects
 
-3. **Validate results**:
-   - Use [`validate_standard_objects.ipynb`](notebooks/validate_standard_objects.ipynb) to ensure schema compliance
-   - Use [`validate_classifications.ipynb`](notebooks/validate_classifications.ipynb) to verify security markings
+3. **Run end-2-end processing**:
+   - Use [`oms_pipeline_main.ipynb`](notebooks/oms_pipeline_main.ipynb) to run end-to-end processing
 
 ## Schema
 
