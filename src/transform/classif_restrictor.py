@@ -21,6 +21,7 @@ def is_classif_too_high(ism: Dict[str, Any], config: Dict[str, Any]) -> bool:
     return False
 
 
+# TODO: Update docstring
 def is_more_restrictive(
     ism1: Dict[str, Any], ism2: Dict[str, Any], config: Dict[str, Any]
 ) -> bool:

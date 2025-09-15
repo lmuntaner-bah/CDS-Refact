@@ -67,12 +67,12 @@ def _save_standard_objects(
 
 def run_pipeline(
     data_path: str,
-    attribute_mapping_path: str,
     output_path: str,
-    restrictions_path: str,
     schema_path: str,
-    valid_attributes_path: str,
+    restrictions_path: str,
+    attribute_mapping_path: str,
     attribute_report_path: str,
+    valid_attributes_path: str,
 ) -> tuple[List[Dict[str, Any]], Dict[str, Any]] | None:
     """
     Orchestrates the main data processing workflow:
@@ -82,12 +82,12 @@ def run_pipeline(
 
     Args:
         data_path (str): Path to the JSON file containing raw input objects.
-        attribute_mapping_path (str): Path to the YAML configuration file for attribute mapping.
         output_path (str): Directory path to save the processed standard objects.
-        restrictions_path (str): Path to the JSON configuration file for classification restrictions.
         schema_path (str): Path to the JSON schema file for validation.
-        valid_attributes_path (str): Path to the JSON file containing valid attribute names.
+        restrictions_path (str): Path to the JSON configuration file for classification restrictions.
+        attribute_mapping_path (str): Path to the YAML configuration file for attribute mapping.
         attribute_report_path (str): Path to save the attribute report for unexpected attributes.
+        valid_attributes_path (str): Path to the JSON file containing valid attribute names.
 
     Returns:
         tuple[List[Dict[str, Any]], Dict[str, Any]]:

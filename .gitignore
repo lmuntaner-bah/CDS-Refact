@@ -3,3 +3,14 @@ __pycache__/
 cds_refact.egg-info/
 
 .DS_Store
+
+# Environment variable files
+.env
+
+# EDA notebooks
+notebooks/databricks_load.ipynb
+notebooks/detect_attribute_name_change.ipynb
+notebooks/parse_locations.ipynb
+notebooks/preprocessor.ipynb
+notebooks/validate_classifications.ipynb
+notebooks/validate_standard_objects.ipynb

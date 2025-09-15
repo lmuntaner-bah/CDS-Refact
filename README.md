@@ -144,6 +144,9 @@ pip install -e .
 - `pyyaml` - YAML processing
 - `jsonschema` - Schema validation
 - `notebook` - Jupyter notebook support
+- `pyarrow` - For data processing and Databricks connection
+- `python-dotenv` - Environment variable management
+- `databricks-sql-connector` - Databricks SQL connection
 
 ### Running the Pipeline
 
