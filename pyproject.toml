@@ -11,8 +11,11 @@ dependencies = [
     "loguru",
     "rich",
     "pyyaml",
+    "pyarrow",
     "jsonschema",
     "notebook",
+    "python-dotenv",
+    "databricks-sql-connector"
 ]
 
 [tool.setuptools.packages.find]
