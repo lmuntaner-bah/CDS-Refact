@@ -1,0 +1,962 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "title": "CDAO AC2A Standard Object Schema",
+    "description": "This schema defines a standard object.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "overallClassification"
+    ],
+    "properties": {
+        "version": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "overallClassification": {
+            "$ref": "#/$defs/ISM"
+        },
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "sourceId": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "enterpriseObjectId": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 250,
+            "regex": "^[\\x20-\\x7E]*$"
+        },
+        "createdDate": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "lastUpdatedDate": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "exerciseIndicator": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "confidenceLevel": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "recordStatus": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "obType": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "primaryMission": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "operationalStatus": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "responsibleProducer": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "functionalRole": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "recordLink": {
+            "$ref": "#/$defs/StringValue"
+        },
+        "trackMetadata": {
+            "$ref": "#/$defs/TrackMetadata"
+        },
+        "airMetadata": {
+            "$ref": "#/$defs/AirMetadata"
+        },
+        "maritimeMetadata": {
+            "$ref": "#/$defs/MaritimeMetadata"
+        },
+        "landMetadata": {
+            "$ref": "#/$defs/LandMetadata"
+        },
+        "spaceMetadata": {
+            "$ref": "#/$defs/SpaceMetadata"
+        },
+        "location": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "$ref": "#/$defs/Location"
+            }
+        },
+        "movement": {
+            "$ref": "#/$defs/Movement"
+        },
+        "equipment": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "$ref": "#/$defs/Equipment"
+            }
+        },
+        "ontology": {
+            "$ref": "#/$defs/Ontology"
+        },
+        "provenance": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "$ref": "#/$defs/Provenance"
+            }
+        },
+        "unit": {
+            "$ref": "#/$defs/Unit"
+        },
+        "facility": {
+            "$ref": "#/$defs/Facility"
+        },
+        "target": {
+            "$ref": "#/$defs/Target"
+        },
+        "munitions": {
+            "$ref": "#/$defs/Munitions"
+        }
+    },
+    "$defs": {
+        "StringValue": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "NumberValue": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "value": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "BooleanValue": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "value": {
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                }
+            }
+        },
+        "TrackMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Track Metadata",
+            "properties": {
+                "trackId": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "trackType": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "trackQuality": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "linkTrackId": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "linkTrackReportingUnit": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "AirMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Aircraft Metadata",
+            "properties": {
+                "icao24": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "callsign": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "tailNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "platform": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "specificType": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "flightStatus": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "squawk": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "spi": {
+                    "$ref": "#/$defs/BooleanValue"
+                },
+                "onGround": {
+                    "$ref": "#/$defs/BooleanValue"
+                },
+                "origin": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "destination": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "fuelLevel": {
+                    "$ref": "#/$defs/NumberValue"
+                }
+            }
+        },
+        "MaritimeMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Maritime Metadata",
+            "properties": {
+                "sconum": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "imo": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "mmsi": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "shipClass": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "shipName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "hullNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "pennantNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "navStatus": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "ticketStatusActivity": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "ticketSales": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "ticketStatusDescription": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "LandMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Land Metadata",
+            "properties": {
+                "beNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "platform": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "vehicle": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "noStrike": {
+                    "$ref": "#/$defs/BooleanValue"
+                }
+            }
+        },
+        "SpaceMetadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Space Metadata",
+            "properties": {
+                "satelliteNumber": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "idOnOrbit": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "orbitType": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "name": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "internationalDesignator": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "orbitSemiMajorAxis": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "eccentricity": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "inclination": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "rightAscension": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "argumentOfPerigee": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "meanAnomaly": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "epoch": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "bStar": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "tle": {
+                    "$ref": "#/$defs/TLE"
+                }
+            }
+        },
+        "TLE": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Two-Line Element Set",
+            "properties": {
+                "line1": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "line2": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "Location": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Object Location",
+            "properties": {
+                "ism": {
+                    "$ref": "#/$defs/ISM"
+                },
+                "id": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "timestamp": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "latitude": {
+                    "type": ["number", "null"]
+                },
+                "longitude": {
+                    "type": ["number", "null"]
+                },
+                "semiMajorError": {
+                    "type": ["number", "null"]
+                },
+                "semiMinorError": {
+                    "type": ["number", "null"]
+                },
+                "errorOrientation": {
+                    "type": ["number", "null"]
+                },
+                "altitude": {
+                    "$ref": "#/$defs/AltitudeValue"
+                },
+                "elevation": {
+                    "$ref": "#/$defs/ElevationValue"
+                },
+                "derivation": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "quality": {
+                    "type": ["number", "null"]
+                },
+                "locationName": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "reason": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "custom": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                },
+                "countryCode": {
+                    "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$"
+                }
+            }
+        },
+        "AltitudeValue": {
+            "type": ["object", "null"],
+            "title": "Altitude Value",
+            "properties": {
+                "value": { "type": ["number", "null"] },
+                "quality": { "type": ["number", "null"] },
+                "error": { "type": ["number", "null"] },
+                "units": { "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$" }
+            }
+        },
+        "ElevationValue": {
+            "type": ["object", "null"],
+            "title": "Elevation Value",
+            "properties": {
+                "value": { "type": ["number", "null"] },
+                "quality": { "type": ["number", "null"] },
+                "error": { "type": ["number", "null"] },
+                "units": { "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$" }
+            }
+        },
+        "Movement": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Movement",
+            "properties": {
+                "course": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "speed": {
+                    "$ref": "#/$defs/SpeedValue"
+                }
+            }
+        },
+        "SpeedValue": {
+            "type": ["object", "null"],
+            "title": "Speed Value",
+            "properties": {
+                "value": { "type": ["number", "null"] },
+                "units": { "type": ["string", "null"], "maxLength": 250, "regex": "^[\\x20-\\x7E]*$" },
+                "ism": { "$ref": "#/$defs/ISM" }
+            }
+        },
+        "Ontology": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Ontology",
+            "properties": {
+                "affiliation": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "allegiance": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "identity": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "domain": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "nationality": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "echelon": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "force": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "forceName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "theater": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "coi": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "service": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "orderOfBattleType": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "primaryFunction": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "primaryMissionSpecialty": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "battleSpaceDimension": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "Equipment": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Equipment",
+            "properties": {
+                "capability": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "condition": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "midbEquipmentCode": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "midbName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "midbEquipmentSurrogateKey": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "alternateName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "equipmentCategory": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "family": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "nomenclature": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "symbol2525C": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "component": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "Facility": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Facility",
+            "properties": {
+                "facilityId": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "facilityName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "midbFacilitySurrogateKey": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "description": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "status": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "Unit": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Unit",
+            "properties": {
+                "id": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "name": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "surrogateKey": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "description": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "status": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "readiness": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "subordination": {
+                    "$ref": "#/$defs/StringValue"
+                }
+            }
+        },
+        "Target": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Target",
+            "properties": {
+                "quality": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "cpclPriority": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "jipclPriority": {
+                    "$ref": "#/$defs/NumberValue"
+                }
+            }
+        },
+        "Munitions": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Munitions",
+            "properties": {
+                "dodac": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "amcReport": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "areaName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "asp": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "assetQty": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "baseName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "cocom": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "conditionCode": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "controlNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "conusOconus": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "crc": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "dataSource": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "dateReceived": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "demil": {
+                    "$ref": "#/$defs/BooleanValue"
+                },
+                "detail": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "dodic": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "expirationDate": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "fleet": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "fsc": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "himrCategory": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "lat": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "locationCode": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "locationDetail": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "long": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "lotNumber": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "majcom": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "mrpClass": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "msrg": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "munitionCode": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "nalc": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "new_hz_cl_div": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "new_location_limit_1_1": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_1_2": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_2": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_2_1": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_2_2": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_2_3": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_3": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_1_4": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_location_limit_total": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_total_value": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "new_unit_value": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "niin": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "nomenclature": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "nsn": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "plant_key": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "prepo": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "purpose_code": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "retail": {
+                    "$ref": "#/$defs/BooleanValue"
+                },
+                "ric": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "s_i_family": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "s_i_group": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "serial_number": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "service": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "shelf_life": {
+                    "$ref": "#/$defs/NumberValue"
+                },
+                "shelf_life_code": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "type": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "uic": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "wholesale": {
+                    "$ref": "#/$defs/BooleanValue"
+                }
+            }
+        },
+        "Provenance": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Provenance",
+            "properties": {
+                "sourceName": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "id": {
+                    "$ref": "#/$defs/StringValue"
+                },
+                "updatedTime": {
+                    "$ref": "#/$defs/NumberValue"
+                }
+            }
+        },
+        "ISM": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "title": "Information Security Marking",
+            "properties": {
+                "banner": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^(?!.*TOP SECRET)(?!.*/SI/?|.*//SI/?).*$"
+                },
+                "classification": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 250,
+                    "regex": "^[\\x20-\\x7E]*$"
+                },
+                "ownerProducer": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "items": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "releaseableTo": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "items": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "disseminationControls": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "items": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                },
+                "sciControls": {
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "items": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "maxLength": 250,
+                        "regex": "^[\\x20-\\x7E]*$"
+                    }
+                }
+            }
+        }
+    }
+}
