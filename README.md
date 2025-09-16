@@ -13,9 +13,9 @@ This project processes raw source objects from an object management system and t
 - **Object Standardization**: Converts source objects to standardized schema format
 - **Multi-Domain Support**: Handles AIR, SEA, GROUND and other domain objects
 - **Validation**: Ensures all processed objects conform to the standard schema
+- **Attribute Drift Detection**: Monitors changes in data attributes over time
 
 ## Project Structure
-
 
 ```
 ├── configs/
@@ -54,6 +54,7 @@ This project processes raw source objects from an object management system and t
     │   └── preprocessor.py                   # Preprocesses raw data
     └── utils/
         ├── __init__.py
+        ├── attribute_drift_detector.py       # Detects attribute drift in data over time
         └── validater.py                      # Validation utilities
 ```
 
@@ -65,6 +66,7 @@ This project processes raw source objects from an object management system and t
    - Parse location data
    - Transform object attributes to standard format
    - Validate against schema
+   - Monitor attribute drift
 3. **Output**: Standardized objects with proper security markings
 
 ## Security Classifications
@@ -119,7 +121,7 @@ Supports multiple object categories:
 
 ### Prerequisites
 
-- Python 3.13+
+- Python 3.10+
 - Jupyter Notebook environment
 
 ### Installation
@@ -146,7 +148,7 @@ pip install -e .
 
 ### Running the Pipeline
 
-1. **Start with the main pipeline notebook**:
+1. **Start with the pipeline flow notebook**:
    ```
     notebooks/oms_pipeline_flow.ipynb
    ```
@@ -176,6 +178,7 @@ Key functions for developers:
 - `extract_ism(acm)` - Converts ACM to ISM format
 - `parse_location()` - Extracts location data
 - `fetch_all_objects()` - Loads source objects
+- `detect_attribute_drift()` - Monitors attribute changes over time
 - Schema validation against the standard object schema
 
 ## Security Notes
