@@ -1,8 +1,21 @@
 from loguru import logger
 from typing import Dict, Any, Optional
 
+
 def is_classif_too_high(ism: Dict[str, Any], config: Dict[str, Any]) -> bool:
-    """Return True if ISM is too highly classified or contains forbidden controls/terms."""
+    """
+    Determines if the classification level in the ISM (Information Security Marking) is too high or contains forbidden values.
+
+    Args:
+        ism (Dict[str, Any]): The ISM dictionary containing classification information.
+        config (Dict[str, Any]): Configuration dictionary with forbidden values:
+            - "forbidden_sci": List of forbidden SCI controls.
+            - "forbidden_controls": List of forbidden dissemination controls.
+            - "forbidden_terms": List of forbidden terms to check in the banner.
+
+    Returns:
+        bool: True if the ISM classification is too high or contains forbidden values, False otherwise.
+    """
     if not ism:
         logger.warning("ISM is empty, cannot determine classification level.")
         return False
@@ -21,11 +34,29 @@ def is_classif_too_high(ism: Dict[str, Any], config: Dict[str, Any]) -> bool:
     return False
 
 
-# TODO: Update docstring
-def is_more_restrictive(
-    ism1: Dict[str, Any], ism2: Dict[str, Any], config: Dict[str, Any]
-) -> bool:
-    """Return True if ism1 is more restrictive than ism2."""
+def is_more_restrictive(ism1: Dict[str, Any], ism2: Dict[str, Any], config: Dict[str, Any]) -> bool:
+    """
+    Determines if the first ISM (Information Security Marking) is more restrictive than the second.
+    
+    The function evaluates restrictiveness based on a hierarchy of security controls:
+    1. FGI (Foreign Government Information) controls - presence makes marking more restrictive
+    2. NOFORN dissemination controls - presence makes marking more restrictive  
+    3. REL (Releasable To) controls - fewer releasable groups/entities makes marking more restrictive
+    4. Classification level - higher classification level makes marking more restrictive
+    
+    Args:
+        ism1 (Dict[str, Any]): First ISM dictionary containing security marking information.
+            Expected keys: "sciControls", "disseminationControls", "releasableTo", "classification"
+        ism2 (Dict[str, Any]): Second ISM dictionary containing security marking information.
+            Expected keys: "sciControls", "disseminationControls", "releasableTo", "classification"
+        config (Dict[str, Any]): Configuration dictionary containing:
+            - "special_groups": List of special group identifiers
+            - "classifications": Dict mapping classification levels to numeric values
+    
+    Returns:
+        bool: True if ism1 is more restrictive than ism2, False otherwise.
+              Returns False if either ism1 or ism2 is empty/None.
+    """
     if not ism1 or not ism2:
         return False
 

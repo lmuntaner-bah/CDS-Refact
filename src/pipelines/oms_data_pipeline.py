@@ -133,6 +133,8 @@ def run_pipeline(
         # Save the cleaned standard objects to JSON files
         _save_standard_objects(output_path, cleaned_standard_objects)
 
+        # TODO: Add the function that loads the data into databricks
+
         return cleaned_standard_objects, validation_summary
     except Exception as e:
         logger.error(f"Error in pipeline execution: {e}")

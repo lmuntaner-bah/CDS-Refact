@@ -2,8 +2,28 @@ from loguru import logger
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 
+
 def _validate_attributes(attributes: Dict[str, Any]) -> None:
-    """Validate attribute structure and values"""
+    """
+    Validate the structure and content of attributes dictionary.
+    
+    This function performs validation checks on an attributes dictionary to ensure
+    it has the correct structure and contains all required fields.
+    
+    Args:
+        attributes (Dict[str, Any]): A dictionary containing attribute data with 
+            expected structure including a 'data' key containing a list of 
+            dictionaries with 'attributeName' and 'attributeValue' fields.
+    
+    Returns:
+        None
+    
+    Raises:
+        ValueError: If attributes is not a dictionary type.
+        ValueError: If the 'data' key is missing or empty in attributes.
+        ValueError: If required fields ('attributeName', 'attributeValue') are 
+            missing from the first item in the data list.
+    """
     if not isinstance(attributes, dict):
         raise ValueError(
             f"Invalid attribute type: expected dict, got {type(attributes)}"
@@ -23,7 +43,15 @@ def _validate_attributes(attributes: Dict[str, Any]) -> None:
 
 
 def _validate_acm(acm: Dict[str, Any]) -> bool:
-    """Validate the ACM structure"""
+    """
+    Validate that an ACM (Access Control Model) dictionary contains all required fields.
+    
+    Args:
+        acm (Dict[str, Any]): Dictionary representing an ACM object to validate.
+    
+    Returns:
+        bool: True if all required fields are present, False otherwise.
+    """
     required_fields = ["portion", "banner"]
 
     if not all(field in acm for field in required_fields):
@@ -36,7 +64,19 @@ def _validate_acm(acm: Dict[str, Any]) -> bool:
 
 
 def _validate_required_fields(obj: Dict[str, Any]) -> bool:
-    """Validate required object fields"""
+    """
+    Validate that a data object contains all required fields for processing.
+    
+    Checks for the presence and validity of essential fields including 'id',
+    'acm' (which undergoes ACM validation), and 'attributes'. Logs appropriate
+    warnings or errors for missing or invalid fields.
+    
+    Args:
+        obj (Dict[str, Any]): The data object to validate
+    
+    Returns:
+        bool: True if all required fields are present and valid, False otherwise.
+    """
     if not obj.get("id"):
         logger.warning("Raw object is missing 'id' attribute")
         return False
@@ -107,13 +147,23 @@ def handle_special_cases_raw(raw_object: Dict[str, Any]) -> None:
 
 def preprocess_raw_data(raw_objects: List[Dict[str, Any]]):
     """
-    Preprocess and validate raw objects
-
+    Preprocesses a list of raw data objects by validating and filtering them.
+    
+    This function performs a multi-step validation and preprocessing pipeline:
+    1. Validates required fields for each object
+    2. Validates object attributes 
+    3. Handles special cases for attribute processing
+    4. Returns only objects that pass all validation steps
+    
     Args:
-        raw_objects: List of raw input objects
-
+        raw_objects (List[Dict[str, Any]]): List of raw data objects to preprocess.
+            Each object should be a dictionary containing an 'id' field and 
+            optional 'attributes' field.
+    
     Returns:
-        Dict mapping object IDs to preprocessed objects
+        List[Dict[str, Any]]: List of successfully processed objects that passed
+            all validation steps. Objects that fail validation are excluded from
+            the result.
     """
     processed_data = []
 
@@ -143,9 +193,27 @@ def preprocess_raw_data(raw_objects: List[Dict[str, Any]]):
 
 def prepare_dates(source_objects: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Converts date strings in 'lastVerified.timestamp' and 'Date Of Introduction' attributes to Unix timestamps.
+    Convert date strings to Unix timestamps in source objects.
+    This function processes a list of source objects and converts date strings
+    to Unix timestamps (integers) in two specific locations:
+    
+    1. The 'timestamp' field within 'lastVerified' objects
+    2. The 'attributeValue' field for attributes with name "date of introduction"
+    
+    The function supports multiple date formats:
+    - ISO format with microseconds: "%Y-%m-%dT%H:%M:%S.%fZ"
+    - ISO format without microseconds: "%Y-%m-%dT%H:%M:%SZ" 
+    - Date only format: "%Y-%m-%d"
+    
+    Args:
+        source_objects (List[Dict[str, Any]]): A list of dictionary objects
+            containing date fields to be converted.
+    
+    Returns:
+        List[Dict[str, Any]]: The same list of objects with date strings
+            converted to Unix timestamps where applicable. Objects are
+            modified in-place.
     """
-
     def to_unix(date_str: str) -> Optional[int]:
         for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
             try:

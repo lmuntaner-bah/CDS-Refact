@@ -76,7 +76,14 @@ def load_attribute_mapping(config_file: str) -> Dict[str, Dict[str, str]]:
 
 def load_classification_config(config_path: str) -> Dict[str, Any]:
     """
-    Load classification configuration from a JSON file.
+    Load classification configuration from a YAML file.
+    
+    Args:
+        config_path (str): Path to the YAML configuration file.
+    
+    Returns:
+        Dict[str, Any]: The 'restrictions' section from the configuration file
+                       containing classification parameters and settings.
     """
     try:
         with open(config_path, "r") as file:
@@ -98,6 +105,7 @@ def load_standard_object_schema(schema_path: str) -> dict:
 
     Args:
         schema_path (str): Path to the JSON schema
+    
     Returns:
         dict: The loaded JSON schema
     """
