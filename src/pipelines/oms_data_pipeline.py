@@ -3,7 +3,7 @@ import json
 from loguru import logger
 from datetime import datetime
 from typing import Dict, Any, List
-from src.utils.validater import validate_all_standard_objects
+from src.utils.validater import run_validations
 from src.utils.attribute_drift_detector import detect_unexpected_attribute_names
 from src.extract.object_extractor import fetch_all_objects
 from src.transform.preprocessor import prepare_dates
@@ -128,7 +128,7 @@ def run_pipeline(
         logger.info("Cleaned standard objects by removing any empty containers")
 
         # Validate all cleaned standard objects and get summary
-        validation_summary = validate_all_standard_objects(cleaned_standard_objects, schema_path)
+        validation_summary = run_validations(cleaned_standard_objects, schema_path)
 
         # Save the cleaned standard objects to JSON files
         _save_standard_objects(output_path, cleaned_standard_objects)

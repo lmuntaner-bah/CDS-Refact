@@ -8,9 +8,13 @@
 
 attribute_mapping:
   # Root level attributes (placed directly in the object)
+  "Enterprise Object ID":
+    field: "enterpriseObjectId"
+    container: "root"
+  
   "Primary Mission":
     field: "primaryMission"
-    container: "root"
+    container: "root" 
   
   "Operational Status":
     field: "operationalStatus"
@@ -109,8 +113,3 @@ attribute_mapping:
   "OSuffix":
     field: "facilityId"
     container: "facility"
-
-  # Provenance container attributes
-  "Enterprise Object ID":
-    field: "id"
-    container: "provenance"

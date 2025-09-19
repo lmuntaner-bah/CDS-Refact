@@ -63,8 +63,7 @@ def validate_standard_object(
         return False
 
 
-# # TODO: Change this name to something better
-def validate_all_standard_objects(
+def run_validations(
     cleaned_objects: List[Dict[str, Any]],
     schema_path: str,
 ) -> Dict[str, Any]:
