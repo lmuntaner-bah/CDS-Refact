@@ -322,7 +322,7 @@
                         "U"
                     ]
                 },
-                "attributeName": " MIDBFacility Surrogate Key",
+                "attributeName": " MIDB Facility Surrogate Key",
                 "attributeValue": "30003000815644",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2024-09-22T16:45:35.234Z"

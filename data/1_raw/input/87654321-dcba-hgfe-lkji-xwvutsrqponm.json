@@ -323,7 +323,7 @@
                         "U"
                     ]
                 },
-                "attributeName": "Force",
+                "attributeName": "Military Force",
                 "attributeValue": "NV",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2025-04-15T09:23:18.234Z"
@@ -623,7 +623,7 @@
                         "U"
                     ]
                 },
-                "attributeName": "Has Nuclear Capability",
+                "attributeName": "Nuclear Capability",
                 "attributeValue": "N",
                 "attributeType": "STRING",
                 "authoritySetAtTime": "2024-11-20T14:45:32.123Z"
